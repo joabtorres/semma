@@ -77,9 +77,9 @@
                             <i class="fa-solid fa-people-group"></i> Licenciamento Ambiental
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Coordenadoria de Licenciamento Ambiental</a></li>
-                            <li><a class="dropdown-item" href="#">Termos de Referência</a></li>
-                            <li><a class="dropdown-item" href="#">Formulários</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cla">Coordenadoria de Licenciamento Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cla/termos_de_referencia">Termos de Referência</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cla/formularios"">Formulários</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -87,8 +87,8 @@
                             <i class="fa-solid fa-people-group"></i> Fiscalização Ambiental
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Coordenadoria de Fiscalização Ambiental</a></li>
-                            <li><a class="dropdown-item" href="#">Formulários</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cofisc">Coordenadoria de Fiscalização Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cofisc/formularios">Formulários</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -96,9 +96,9 @@
                             <i class="fa-solid fa-people-group"></i>  Recursos Naturais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Coordenadoria de Proteção dos Recursos Naturais e Educação Ambiental</a></li>
-                            <li><a class="dropdown-item" href="#">Cadastro Ambiental Rural (CAR)</a></li>
-                            <li><a class="dropdown-item" href="#">Formulários</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cprn">Coordenadoria de Proteção dos Recursos Naturais e Educação Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cprn/car">Cadastro Ambiental Rural (CAR)</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cprn/formularios">Formulários</a></li>
                         </ul>
                     </li>
                 </ul>               

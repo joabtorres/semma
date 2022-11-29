@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 29-Nov-2022 às 20:27
+-- Tempo de geração: 29-Nov-2022 às 22:00
 -- Versão do servidor: 10.4.25-MariaDB
 -- versão do PHP: 8.1.10
 
@@ -20,6 +20,32 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `semma`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `formularios`
+--
+
+CREATE TABLE `formularios` (
+  `cod` int(10) UNSIGNED NOT NULL,
+  `coordenacao` varchar(10) NOT NULL,
+  `tipo` varchar(20) NOT NULL,
+  `data` varchar(30) NOT NULL,
+  `descricao` text NOT NULL,
+  `anexo` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `formularios`
+--
+
+INSERT INTO `formularios` (`cod`, `coordenacao`, `tipo`, `data`, `descricao`, `anexo`) VALUES
+(1, 'cla', 'Declaração', 'Novembro/2022', 'Declaração de Informações Ambientais', ''),
+(2, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão Geral', ''),
+(3, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão de Dispensa', ''),
+(4, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão Declaratório', ''),
+(5, 'cla', 'Checklist', 'Novembro/2022', 'Checklist Supressão Vegetal', '');
 
 -- --------------------------------------------------------
 
@@ -64,9 +90,53 @@ INSERT INTO `legislacoes` (`cod`, `categoria`, `esfera`, `numero`, `ano`, `data`
 (18, 'Resoluções', 'CMMA', '006', 2022, '10/03/2022', 'Alterar os Itens 1.1.7 do ANEXO II, III e IV da Resolução CMMA n° 004/2021, para acrescentar a Certidão de Uso e Ocupação do Solo, o qual passa a vigorar com a seguinte alteração: 1. Documentos Administrativos: 1.1. Obrigatórios: 1.1.7 Alvará de Localização e Funcionamento ou Certidão de Uso e Ocupação do Solo;', '', ''),
 (19, 'Resoluções', 'COEMA', '162', 2021, '02/02/2021', 'Regulamenta as atividades de impacto ambiental local, para fins de licenciamento ambiental, de competência dos Municípios no âmbito do Estado do Pará.', '', '');
 
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `termos_de_referencia`
+--
+
+CREATE TABLE `termos_de_referencia` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `tipo` varchar(30) NOT NULL,
+  `data` varchar(20) NOT NULL,
+  `descricao` text NOT NULL,
+  `anexo` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `termos_de_referencia`
+--
+
+INSERT INTO `termos_de_referencia` (`id`, `tipo`, `data`, `descricao`, `anexo`) VALUES
+(1, 'Termo de Referência', 'Outubro/2022', 'Licença Ambiental Simplificada', ''),
+(2, 'Termo de Referência', 'Outubro/2022', 'Licença Ambiental Declaratória', ''),
+(3, 'Termo de Referência', 'Outubro/2022', 'Autorização de Evento Temporário', ''),
+(4, 'Termo de Referência', 'Outubro/2022', 'Carta Consulta Atualizada', ''),
+(5, 'Termo de Referência', 'Outubro/2022', 'Dispensa de Licenciamento Ambiental', ''),
+(6, 'Termo de Referência', 'Outubro/2022', 'Elaboração de Relatório Ambiental Simplificado - RAS, para Atividades Comerciais e de Serviços', ''),
+(7, 'Termo de Referência', 'Outubro/2022', 'Elaboração de Relatório de Informação Ambiental Anual (RIAA)', ''),
+(8, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Beneficiamento de Açaí', ''),
+(9, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Comércio de Insumos Agropecuários, Depósito, Comércio de Substâncias e Produtos Perigosos', ''),
+(10, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Construção Civil (Conjuntos Habitacionais, Condomínios Multifamiliar e Outros)', ''),
+(11, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Extração Mineral', ''),
+(12, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Geral - Licença De Operação – LO', ''),
+(13, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Geral', ''),
+(14, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Lava-Jato', ''),
+(15, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Obras de Construção Civil, Loteamento e Parcelamento do Solo', ''),
+(16, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Oficina Mecânica, Lanternagem e Pintura de Veículos Automotores', ''),
+(17, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Posto Revendedor, Posto de Abastecimento, Posto Varejista de Querosene e Gasolina de Aviação, Exceto Posto Flutuante', ''),
+(18, 'Termo de Referência', 'Outubro/2022', 'Renovação de Licenciamento Ambiental Geral', '');
+
 --
 -- Índices para tabelas despejadas
 --
+
+--
+-- Índices para tabela `formularios`
+--
+ALTER TABLE `formularios`
+  ADD PRIMARY KEY (`cod`);
 
 --
 -- Índices para tabela `legislacoes`
@@ -75,14 +145,32 @@ ALTER TABLE `legislacoes`
   ADD PRIMARY KEY (`cod`);
 
 --
+-- Índices para tabela `termos_de_referencia`
+--
+ALTER TABLE `termos_de_referencia`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de tabelas despejadas
 --
+
+--
+-- AUTO_INCREMENT de tabela `formularios`
+--
+ALTER TABLE `formularios`
+  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de tabela `legislacoes`
 --
 ALTER TABLE `legislacoes`
   MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+
+--
+-- AUTO_INCREMENT de tabela `termos_de_referencia`
+--
+ALTER TABLE `termos_de_referencia`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
