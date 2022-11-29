@@ -13,7 +13,7 @@ if (ENVIRONMENT == 'development') {
     //Raiz
     define("BASE_URL", "http://localhost/semma/");
     //Nome do banco
-    $config['dbname'] = 'sispam';
+    $config['dbname'] = 'semma';
     //host
     $config['host'] = 'localhost';
     //usuario

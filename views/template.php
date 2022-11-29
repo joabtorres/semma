@@ -19,8 +19,8 @@
         <!--div comunicado-->
         <div class="navbar fixed-top bg-pmc-1 pt-0 pb-0">
             <div class="container aviso-topo">
-                <div class="navbar-text"> Atendimento: segunda a sexta, das 8h às 14h</div>                      
-                <ul class="list-inline text-end mb-0">
+                <div class="navbar-text mt-2 mb-2 d-none d-sm-none d-md-block"> Atendimento: segunda a sexta, das 8h às 14h</div>                      
+                <ul class="list-inline text-end mb-2 mt-2">
                     <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/portal-da-transparencia/fale-conosco/" target="_blank">FALE CONOSCO</a>
                     <li class="list-inline-item"><a href="http://www2.castanhal.pa.gov.br/ouvidoria" target="_blank">OUVIDORIA</a>
                     <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/" target="_blank">TRANSPARÊNCIA</a>
@@ -64,22 +64,12 @@
                             <i class="fa-solid fa-scale-unbalanced-flip"></i> Legislação
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Decretos</a></li>
-                            <li><a class="dropdown-item" href="#">Instruções normativas</a></li>
-                            <li><a class="dropdown-item" href="#">Leis Complementares</a></li>
-                            <li><a class="dropdown-item" href="#">Leis</a></li>
-                            <li><a class="dropdown-item" href="#">Portarias</a></li>
-                            <li><a class="dropdown-item" href="#">Resoluções</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-people-group"></i> Fiscalização Ambiental
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Coordenadoria de Fiscalização Ambiental</a></li>
-                            <li><a class="dropdown-item" href="#">Termos de Referência</a></li>
-                            <li><a class="dropdown-item" href="#">Formulários</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/decretos">Decretos</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/instrucoes_normativas">Instruções normativas</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/leis_complementares">Leis Complementares</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/leis"">Leis</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/portarias">Portarias</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/resolucoes">Resoluções</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -88,6 +78,16 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Coordenadoria de Licenciamento Ambiental</a></li>
+                            <li><a class="dropdown-item" href="#">Termos de Referência</a></li>
+                            <li><a class="dropdown-item" href="#">Formulários</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-people-group"></i> Fiscalização Ambiental
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Coordenadoria de Fiscalização Ambiental</a></li>
                             <li><a class="dropdown-item" href="#">Formulários</a></li>
                         </ul>
                     </li>
