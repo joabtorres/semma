@@ -2,11 +2,11 @@
 
 Recursos utilizados:
 
--HTML5
--CSS 3
--JavaScript
--PHP 7.4
--MySQL
+- HTML5
+- CSS 3
+- JavaScript
+- PHP 7.4
+- MySQL
 
 - MVC Próprio
 
