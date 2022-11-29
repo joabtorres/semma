@@ -1,0 +1,36 @@
+.bg-pmc-1{
+    background: #312782;
+}
+.bg-pmc-2{
+    background: #e20613;
+}
+.text-pmc-2{
+    color: #e20613;
+}
+.text-strong{
+    font-weight: bold;
+}
+.text-strong ul li{
+    font-weight: normal;
+}
+.bg-cinza{
+    background: #E4E6E5;
+}
+.aviso-topo *{
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+.aviso-topo a:hover, .aviso-topo a:hover i{
+    color: #ccc;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+}
+.breadcrumb a:hover{
+    text-decoration: underline;
+}
+.text-indent{
+    text-indent:50px;
+}
