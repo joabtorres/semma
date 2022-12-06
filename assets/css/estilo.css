@@ -32,6 +32,30 @@
 .breadcrumb a:hover{
     text-decoration: underline;
 }
-.text-indent{
-    text-indent:50px;
+
+.example-image-link {
+    display: inline-block;
+    padding: 4px;
+    margin: 0 0.5rem 1rem 0.5rem;
+    background-color: var(--bg-color);
+    line-height: 0;
+    border-radius: var(--border-radius-large);
+}
+.example-image-link:hover {
+    background-color: var(--primary-color);
+}
+
+.lightbox-image {
+    width: 7rem;
+    border-radius: var(--border-radius);
+}
+
+#banner-topo{
+    background: url(../imagens/banner-topo.jpg) no-repeat center 100%;
+}
+.navbar-nav  .nav-link{
+    color: black;
+}
+.navbar-nav .nav-link:hover{
+    color: #443a3a;
 }

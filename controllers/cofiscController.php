@@ -4,7 +4,7 @@ class cofiscController extends controller {
 
     public function index() {
         $dados = array();
-        $viewName = 'cla/cla';
+        $viewName = 'cofisc/cofisc';
         $this->loadTemplate($viewName, $dados);
     }
 
@@ -14,7 +14,7 @@ class cofiscController extends controller {
         $viewName = 'cofisc/documento';
         $crudModel = new crud_db();
         $dados['name_page'] = "Formulários";
-        $dados['termos_de_referencia'] = $crudModel->read('SELECT * FROM formularios WHERE coordenacao="cprn"');
+        $dados['termos_de_referencia'] = $crudModel->read('SELECT * FROM formularios WHERE coordenacao="cofisc"');
         $this->loadTemplate($viewName, $dados);
     }
 

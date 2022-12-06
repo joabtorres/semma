@@ -4,7 +4,7 @@ class cprnController extends controller {
 
     public function index() {
         $dados = array();
-        $viewName = 'cla/cla';
+        $viewName = 'cprn/cprn';
         $this->loadTemplate($viewName, $dados);
     }
 

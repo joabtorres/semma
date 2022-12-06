@@ -8,19 +8,20 @@
         <meta property="ogg:description" content="<?php echo NAME_PROJECT ?>">
         <title><?php echo NAME_PROJECT ?></title>
         <link href="<?php echo BASE_URL ?>assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo BASE_URL ?>assets/css/lightbox.min.css" rel="stylesheet">
         <link href="<?php echo BASE_URL ?>assets/css/estilo.css" rel="stylesheet">
-        <script src="<?php echo BASE_URL ?>assets/js/bootstrap.bundle.min.js"></script>
         <link href="<?php echo BASE_URL ?>assets/css/fontawesome.min.css" rel="stylesheet">
         <link href="<?php echo BASE_URL ?>assets/css/brands.min.css" rel="stylesheet">
         <link href="<?php echo BASE_URL ?>assets/css/solid.min.css" rel="stylesheet">
+        <script src="<?php echo BASE_URL ?>assets/js/bootstrap.bundle.min.js"></script>
         <?php echo '<script> var base_url = "' . BASE_URL . '"</script>' ?>
     </head>
     <body>
         <!--div comunicado-->
         <div class="navbar fixed-top bg-pmc-1 pt-0 pb-0">
             <div class="container aviso-topo">
-                <div class="navbar-text mt-2 mb-2 d-none d-sm-none d-md-block"> Atendimento: segunda a sexta, das 8h às 14h</div>                      
-                <ul class="list-inline text-end mb-2 mt-2">
+                <div class="navbar-text mt-2 mb-2 "> Atendimento: segunda a sexta, das 8h às 14h</div>                      
+                <ul class="list-inline text-end mb-2 d-none d-sm-none d-md-block">
                     <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/portal-da-transparencia/fale-conosco/" target="_blank">FALE CONOSCO</a>
                     <li class="list-inline-item"><a href="http://www2.castanhal.pa.gov.br/ouvidoria" target="_blank">OUVIDORIA</a>
                     <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/" target="_blank">TRANSPARÊNCIA</a>
@@ -34,7 +35,7 @@
     </div>
     <!--div comunicado-->
     <!--banner-->
-    <div style="width: 100%; height: 400px; background: #0b5ed7;">
+    <div id="banner-topo" style="width: 100%; height: 440px;">
 
     </div>
     <!--banner-->
@@ -77,9 +78,10 @@
                             <i class="fa-solid fa-people-group"></i> Licenciamento Ambiental
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cla">Coordenadoria de Licenciamento Ambiental</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cla/termos_de_referencia">Termos de Referência</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cla/formularios"">Formulários</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla">Coordenadoria de Licenciamento Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/termos_de_referencia">Termos de Referência</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/formularios"">Formulários</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/licencas_emitidas"">Licenças Emitidas</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -87,8 +89,8 @@
                             <i class="fa-solid fa-people-group"></i> Fiscalização Ambiental
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cofisc">Coordenadoria de Fiscalização Ambiental</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cofisc/formularios">Formulários</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cofisc">Coordenadoria de Fiscalização Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cofisc/formularios">Formulários</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -96,9 +98,9 @@
                             <i class="fa-solid fa-people-group"></i>  Recursos Naturais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cprn">Coordenadoria de Proteção dos Recursos Naturais e Educação Ambiental</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cprn/car">Cadastro Ambiental Rural (CAR)</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL?>cprn/formularios">Formulários</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn">Coordenadoria de Proteção dos Recursos Naturais e Educação Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn/car">Cadastro Ambiental Rural (CAR)</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn/formularios">Formulários</a></li>
                         </ul>
                     </li>
                 </ul>               
@@ -120,11 +122,14 @@
                 </div>
                 <div class="col-md-6 text-end">
                     <h4><i class="fa fa-phone text-pmc-2"></i> 91-3711-5959</h4>
-                    <h4><i class="fa fa-mail-bulk text-pmc-2"></i> semma@castanhal.pa.gov.br</h4>
+                    <h4><i class="fa fa-mail-bulk text-pmc-2"></i> protocolo.semma@castanhal.pa.gov.br</h4>
                 </div>
             </div>
         </div>
     </div>
     <!--finalizando rodape-->
+
+    <script src="<?php echo BASE_URL ?>assets/js/lightbox-plus-jquery.min.js"></script>
+    <script src="<?php echo BASE_URL ?>assets/js/script.js"></script>
 </body>
 </html>

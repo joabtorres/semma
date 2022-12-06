@@ -6,7 +6,7 @@
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>">Página Inicial</a></li>
-                    <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>cprn">Coordenadoria de Fiscalização Ambiental</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>cofisc">Coordenadoria de Fiscalização Ambiental</a></li>
                     <li class="breadcrumb-item active"><?php echo!empty($name_page) ? $name_page : '' ?></li>
                 </ol>
             </nav>
@@ -22,9 +22,9 @@
                         <thead>
                             <tr class="bg-pmc-1">
                                 <td>CATEGORIA</td>
-                                <td>ULTIMA ALTERAÇÃO</td>
+                                <td width="170px">ULTIMA ALTERAÇÃO</td>
                                 <td>DESCRIÇÃO</td>
-                                <td>ANEXO</td>
+                                <td width="50">ANEXO</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -33,7 +33,7 @@
                                     <td><?php echo!empty($index['tipo']) ? $index['tipo'] : ''; ?></td>
                                     <td><?php echo!empty($index['data']) ? $index['data'] : ''; ?></td>
                                     <td><?php echo!empty($index['descricao']) ? $index['descricao'] : '' ?></td>
-                                    <td><?php echo!empty($index['anexo']) ? '<a href="' . $index['anexo'] . '" target="_blank" class="btn btn-danger text-white"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : '' ?></td>
+                                    <td><?php echo!empty($index['anexo']) ? '<a href="' . BASE_URL . $index['anexo'] . '" target="_blank" class="btn btn-danger text-white"><i class="fa-solid fa-file-lines fa-2x"></i></a>' : '' ?></td>
                                 </tr>
                             <?php endforeach; ?>
                         </tbody>
@@ -44,8 +44,13 @@
                 echo 'Nenhum registro encontrado!';
             endif;
             ?>
+
+
+
         </div>
     </div>
     <!--row-->
+
+
 </div>
 <!--container-->

@@ -6,7 +6,7 @@
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>">Página Inicial</a></li>
-                    <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>secretaria">Meio Ambiente</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>secretaria">Secretaria</a></li>
                     <li class="breadcrumb-item active">Estrutura Organizacional</li>
                 </ol>
             </nav>
@@ -16,7 +16,7 @@
     <!--row-->
     <div class="row">
         <div  class="col-12 mt-3 mb-3">
-            <img class="img-center img-responsive" src="<?php echo BASE_URL ?>/assets/imagens/estrutura_organizacional.png"/>
+            <img class="img-center img-fluid" src="<?php echo BASE_URL ?>assets/imagens/estrutura_organizacional.png"/>
         </div>
         <div class="col-12">
             <p class="text-indent mb-0">A Secretaria Municipal de Meio Ambiente – SEMMA, criada pela Lei Municipal nº 013, de 21 de maio de 2008, alterada pela Lei Municipal nº 031/13, de 19 de setembro de 2013, alterada pela Lei Complementar nº 003/13, de 29 de abril de 2013, e reorganizada pela Lei Complementar nº 001/20, de 11 de setembro de 2020, passa a ter a seguinte composição organizacional:</p>

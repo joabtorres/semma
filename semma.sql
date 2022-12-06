@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 29-Nov-2022 às 22:00
+-- Tempo de geração: 06-Dez-2022 às 17:30
 -- Versão do servidor: 10.4.25-MariaDB
 -- versão do PHP: 8.1.10
 
@@ -41,11 +41,15 @@ CREATE TABLE `formularios` (
 --
 
 INSERT INTO `formularios` (`cod`, `coordenacao`, `tipo`, `data`, `descricao`, `anexo`) VALUES
-(1, 'cla', 'Declaração', 'Novembro/2022', 'Declaração de Informações Ambientais', ''),
-(2, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão Geral', ''),
-(3, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão de Dispensa', ''),
-(4, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão Declaratório', ''),
-(5, 'cla', 'Checklist', 'Novembro/2022', 'Checklist Supressão Vegetal', '');
+(1, 'cla', 'Declaração', 'Novembro/2022', 'Declaração de Informações Ambientais', 'uploads/formularios/cla/DECLARACAO_DE_INFORMACOES_AMBIENTAIS.doc'),
+(2, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão Geral', 'uploads/formularios/cla/REQUERIMENTO_PADRAO_GERAL.doc'),
+(3, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão de Dispensa', 'uploads/formularios/cla/REQUERIMENTO_PADRAO_DE_DISPENSA.doc'),
+(4, 'cla', 'Requerimento', 'Novembro/2022', 'Requerimento Padrão Declaratório', 'uploads/formularios/cla/REQUERIMENTO_PADRAO_DECLARATORIO.doc'),
+(5, 'cla', 'Checklist', 'Novembro/2022', 'Checklist Supressão Vegetal', 'uploads/formularios/cla/CHECKLIST _SUPRESSAO_VEGETAL.doc'),
+(6, 'cprn', 'CAR', 'Novembro/2022', 'Ficha de Cadastro Ambiental Rural', 'uploads/formularios/cprn/FICHA_DE_CADASTRO_AMBIENTAL.doc'),
+(7, 'cprn', 'Solicitação', 'Novembro/2022', 'Formulário de Solicitação de Palestras de Educação Ambiental', 'uploads/formularios/cprn/FORMULARIO_DE_SOLICITACAO_DE_PALESTRAS_DE_EDUCACAO_AMBIENTAL.doc'),
+(8, 'cprn', 'Solicitação', 'Novembro/2022', 'Formulário de Solicitação de Placas Educativas', 'uploads/formularios/cprn/FORMULARIO_DE_SOLICITACAO_DE_PLACAS_EDUCATIVAS.doc'),
+(9, 'cofisc', 'Denúncia', 'Novembro/2022', 'Formulário de Denúncia', 'uploads/formularios/cofisc/FORMULARIO_DE_DENUNCIA.doc');
 
 -- --------------------------------------------------------
 
@@ -109,24 +113,24 @@ CREATE TABLE `termos_de_referencia` (
 --
 
 INSERT INTO `termos_de_referencia` (`id`, `tipo`, `data`, `descricao`, `anexo`) VALUES
-(1, 'Termo de Referência', 'Outubro/2022', 'Licença Ambiental Simplificada', ''),
-(2, 'Termo de Referência', 'Outubro/2022', 'Licença Ambiental Declaratória', ''),
-(3, 'Termo de Referência', 'Outubro/2022', 'Autorização de Evento Temporário', ''),
-(4, 'Termo de Referência', 'Outubro/2022', 'Carta Consulta Atualizada', ''),
-(5, 'Termo de Referência', 'Outubro/2022', 'Dispensa de Licenciamento Ambiental', ''),
-(6, 'Termo de Referência', 'Outubro/2022', 'Elaboração de Relatório Ambiental Simplificado - RAS, para Atividades Comerciais e de Serviços', ''),
-(7, 'Termo de Referência', 'Outubro/2022', 'Elaboração de Relatório de Informação Ambiental Anual (RIAA)', ''),
-(8, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Beneficiamento de Açaí', ''),
-(9, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Comércio de Insumos Agropecuários, Depósito, Comércio de Substâncias e Produtos Perigosos', ''),
-(10, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Construção Civil (Conjuntos Habitacionais, Condomínios Multifamiliar e Outros)', ''),
-(11, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Extração Mineral', ''),
-(12, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Geral - Licença De Operação – LO', ''),
-(13, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Geral', ''),
-(14, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Lava-Jato', ''),
-(15, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Obras de Construção Civil, Loteamento e Parcelamento do Solo', ''),
-(16, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Oficina Mecânica, Lanternagem e Pintura de Veículos Automotores', ''),
-(17, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Posto Revendedor, Posto de Abastecimento, Posto Varejista de Querosene e Gasolina de Aviação, Exceto Posto Flutuante', ''),
-(18, 'Termo de Referência', 'Outubro/2022', 'Renovação de Licenciamento Ambiental Geral', '');
+(1, 'Termo de Referência', 'Outubro/2022', 'Licença Ambiental Simplificada', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL_SIMPLIFICADA.pdf'),
+(2, 'Termo de Referência', 'Outubro/2022', 'Licença Ambiental Declaratória', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL_DECLARATORIA.pdf'),
+(3, 'Termo de Referência', 'Outubro/2022', 'Autorização de Evento Temporário', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_AUTORIZACAO_DE_EVENTO_TEMPORARIO.pdf'),
+(4, 'Termo de Referência', 'Outubro/2022', 'Carta Consulta Atualizada', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_CARTA_CONSULTA_ATUALIZADA.pdf'),
+(5, 'Termo de Referência', 'Outubro/2022', 'Dispensa de Licenciamento Ambiental', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_DISPENSA_DE_LICENCIAMENTO_AMBIENTAL.pdf'),
+(6, 'Termo de Referência', 'Outubro/2022', 'Elaboração de Relatório Ambiental Simplificado - RAS, para Atividades Comerciais e de Serviços', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_ELABORACAO_DE_RELATORIO_AMBIENTAL_SIMPLIFICADO-RAS.pdf'),
+(7, 'Termo de Referência', 'Outubro/2022', 'Elaboração de Relatório de Informação Ambiental Anual (RIAA)', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_ELABORACAO_DE_RELATORIO_DE_INFORMACAO_AMBIENTAL_ANUAL(RIAA).pdf'),
+(8, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Beneficiamento de Açaí', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL-TIPOLOGIA-BENEFICIAMENTO-DE-ACAI.pdf'),
+(9, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Comércio de Insumos Agropecuários, Depósito, Comércio de Substâncias e Produtos Perigosos', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_COMERCIO_DE_INSUMOS_AGROPECUARIOS_DEPOSITO_COMERCIO_DE_SUBSTANCIAS_E_PRODUTOS_PERIGOSOS.pdf'),
+(10, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Construção Civil (Conjuntos Habitacionais, Condomínios Multifamiliar e Outros)', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_CONSTRUCAO_CIVIL_(CONJUNTOS_HABITACIONAIS_CONDOMINIOS_MULTIFAMILIAR_E_OUTROS).pdf'),
+(11, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Extração Mineral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_EXTRACAO_MINERAL.pdf'),
+(12, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Geral - Licença De Operação – LO', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_GERAL-LICENCA_DE_OPERACAO-LO.pdf'),
+(13, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Geral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_GERAL.pdf'),
+(14, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Lava-Jato', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_LAVA-JATO.pdf'),
+(15, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Obras de Construção Civil, Loteamento e Parcelamento do Solo', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_OBRAS_DE_CONSTRUCAO_CIVIL_E_LOTEAMENTO_E_PARCELAMENTO_DO_SOLO.pdf'),
+(16, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Oficina Mecânica, Lanternagem e Pintura de Veículos Automotores', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_OFICINA_MECANICA_LANTERNAGEM_E_PINTURA_DE_VEICULOS_AUTOMOTORES.pdf'),
+(17, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Posto Revendedor, Posto de Abastecimento, Posto Varejista de Querosene e Gasolina de Aviação, Exceto Posto Flutuante', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_POSTO_REVENDEDOR_POSTO_DE_ABASTECIMENTO_POSTO_VAREJISTA_DE_QUEROSENE_E_GASOLINA_DE_AVIACAO_EXCETO_POSTO_FLUTUANTE.pdf'),
+(18, 'Termo de Referência', 'Outubro/2022', 'Renovação de Licenciamento Ambiental Geral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_RENOVACAO_DE_LICENCIAMENTO_AMBIENTAL_GERAL.pdf');
 
 --
 -- Índices para tabelas despejadas
@@ -158,7 +162,7 @@ ALTER TABLE `termos_de_referencia`
 -- AUTO_INCREMENT de tabela `formularios`
 --
 ALTER TABLE `formularios`
-  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de tabela `legislacoes`
