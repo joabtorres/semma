@@ -27,4 +27,13 @@ class claController extends controller {
         $this->loadTemplate($viewName, $dados);
     }
 
+    public function licencas_emitidas($page = 1) {
+        $dados = array();
+        $viewName = 'cla/licencas';
+        $crudModel = new crud_db();
+        $dados['name_page'] = "Licenças Emitidas";
+        $dados['licencas'] = $crudModel->read('SELECT * FROM licencas_emitidas ORDER BY ano ASC');
+        $this->loadTemplate($viewName, $dados);
+    }
+
 }

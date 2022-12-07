@@ -25,13 +25,10 @@
             </ul>
         </div>
         <div class="col-md-12">
-            <a class="rounded img-responsive example-image-link " href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
-            <a class="rounded img-responsive example-image-link " href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
-            <a class="rounded img-responsive example-image-link " href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
-            <a class="rounded img-responsive example-image-link " href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
-            <a class="rounded img-responsive example-image-link " href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
-            <a class="rounded img-responsive example-image-link " href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
-          </div>
+            <?php for ($i = 1; $i <= 6; $i++): ?>
+                <a class="rounded img-responsive example-image-link " href="<?php echo BASE_URL ?>uploads/galeria/cla/<?php echo sprintf("%02d", $i) ?>.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="<?php echo BASE_URL ?>uploads/galeria/cla/min/<?php echo sprintf("%02d", $i) ?>.jpg" alt="Coordenadoria de Licenciamento Ambiental"/></a>
+                <?php endfor; ?>
+        </div>
     </div>
     <!--row-->
 

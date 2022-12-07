@@ -46,4 +46,19 @@ class controller {
         extract($viewData);
         include 'views/' . $viewName . ".php";
     }
+
+    public function formataProtocolo($numero_protocolo) {
+        $array = explode("/", $numero_protocolo);
+        if (isset($array[2])) {
+            return sprintf("%04d", $array[0]) . '/' . $array[1] . '/' . $array[2];
+        } else {
+            return sprintf("%04d", $array[0]) . '/' . $array[1];
+        }
+    }
+
+    public function formataLicenca($numero_licenca) {
+        $array = explode("/", $numero_licenca);
+        return sprintf("%04d", $array[0]) . '/' . $array[1];
+    }
+
 }

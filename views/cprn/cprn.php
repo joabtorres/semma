@@ -24,7 +24,7 @@
             </ul>
         </div>
         <div class="col-md-12">
-            <?php for ($i = 1; $i < 10; $i++): ?>
+            <?php for ($i = 1; $i <= 12; $i++): ?>
                 <a class="rounded img-responsive example-image-link " href="<?php echo BASE_URL ?>uploads/galeria/cprn/<?php echo sprintf("%02d", $i)?>.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="<?php echo BASE_URL ?>uploads/galeria/cprn/min/<?php echo sprintf("%02d", $i)?>.jpg" alt="Coordenadoria de Proteção dos Recursos Naturais e Educação Ambiental"/></a>
                 <?php endfor; ?>
         </div>
