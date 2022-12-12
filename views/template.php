@@ -35,9 +35,7 @@
     </div>
     <!--div comunicado-->
     <!--banner-->
-    <div id="banner-topo" style="width: 100%; height: 440px;">
-
-    </div>
+    <div id="banner-topo" style="width: 100%; height: 440px;"></div>
     <!--banner-->
     <!--MENU DE NAVEGAÇÃO-->
     <nav class="navbar navbar-expand-lg bg-cinza mb-3">

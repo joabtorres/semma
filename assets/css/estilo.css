@@ -5,6 +5,9 @@
 .bg-pmc-2{
     background: #e20613;
 }
+.bg-pmc-1 a, .bg-pmc-2 a{
+    text-decoration: none;
+}
 .text-pmc-2{
     color: #e20613;
 }

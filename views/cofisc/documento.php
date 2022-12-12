@@ -33,7 +33,7 @@
                                     <td><?php echo!empty($index['tipo']) ? $index['tipo'] : ''; ?></td>
                                     <td><?php echo!empty($index['data']) ? $index['data'] : ''; ?></td>
                                     <td><?php echo!empty($index['descricao']) ? $index['descricao'] : '' ?></td>
-                                    <td><?php echo!empty($index['anexo']) ? '<a href="' . BASE_URL . $index['anexo'] . '" target="_blank" class="btn btn-danger text-white"><i class="fa-solid fa-file-lines fa-2x"></i></a>' : '' ?></td>
+                                    <td><?php echo!empty($index['anexo']) ? '<a href="' . BASE_URL . $index['anexo'] . '" target="_blank" class="btn text-danger"><i class="fa-solid fa-file-lines fa-2x"></i></a>' : '' ?></td>
                                 </tr>
                             <?php endforeach; ?>
                         </tbody>
