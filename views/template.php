@@ -21,7 +21,7 @@
         <div class="navbar fixed-top bg-pmc-1 pt-0 pb-0">
             <div class="container aviso-topo">
                 <div class="navbar-text mt-2 mb-2 "> Atendimento: segunda a sexta, das 8h às 14h</div>                      
-                <ul class="list-inline text-end mb-2 d-none d-sm-none d-md-block">
+                <ul class="list-inline text-end mb-2 mt-2">
                     <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/portal-da-transparencia/fale-conosco/" target="_blank">FALE CONOSCO</a>
                     <li class="list-inline-item"><a href="http://www2.castanhal.pa.gov.br/ouvidoria" target="_blank">OUVIDORIA</a>
                     <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/" target="_blank">TRANSPARÊNCIA</a>
@@ -35,10 +35,10 @@
     </div>
     <!--div comunicado-->
     <!--banner-->
-    <div id="banner-topo" style="width: 100%; height: 440px;"></div>
+    <div id="banner-topo"></div>
     <!--banner-->
     <!--MENU DE NAVEGAÇÃO-->
-    <nav class="navbar navbar-expand-lg bg-cinza mb-3">
+    <nav class="navbar navbar-expand-lg bg-cinza">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,11 +47,11 @@
 
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo BASE_URL ?>"><i class="fa fa-home fa-lg"></i> Página Inícial</a>
+                        <a class="nav-link" href="<?php echo BASE_URL ?>"><i class="fa fa-home"></i> Página Inícial</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa fa-institution fa-lg"></i> Secretaria
+                            <i class="fa fa-institution"></i> Secretaria
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>secretaria">Secretaria</a></li>
@@ -73,7 +73,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-people-group"></i> Licenciamento Ambiental
+                            <i class="fa-solid fa-people-group"></i> Licenciamento
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla">Coordenadoria de Licenciamento Ambiental</a></li>
@@ -84,7 +84,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-people-group"></i> Fiscalização Ambiental
+                            <i class="fa-solid fa-people-group"></i> Fiscalização
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cofisc">Coordenadoria de Fiscalização Ambiental</a></li>

@@ -8,7 +8,7 @@ class legislacaoController extends controller {
 
         $crudModel = new crud_db();
         $dados['name_page'] = "Legislação";
-        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes');
+        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes ORDER BY categoria, esfera, ano, numero ASC');
         $this->loadTemplate($viewName, $dados);
     }
 
@@ -18,7 +18,7 @@ class legislacaoController extends controller {
 
         $crudModel = new crud_db();
         $dados['name_page'] = "Decretos";
-        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao', array('legislacao' => $dados['name_page']));
+        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao ORDER BY categoria, esfera, ano, numero ASC', array('legislacao' => $dados['name_page']));
         $this->loadTemplate($viewName, $dados);
     }
 
@@ -28,7 +28,7 @@ class legislacaoController extends controller {
 
         $crudModel = new crud_db();
         $dados['name_page'] = "Leis Complementares";
-        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao', array('legislacao' => $dados['name_page']));
+        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao ORDER BY categoria, esfera, ano, numero ASC', array('legislacao' => $dados['name_page']));
         $this->loadTemplate($viewName, $dados);
     }
 
@@ -38,7 +38,7 @@ class legislacaoController extends controller {
 
         $crudModel = new crud_db();
         $dados['name_page'] = "Leis";
-        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao', array('legislacao' => $dados['name_page']));
+        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao ORDER BY categoria, esfera, ano, numero ASC', array('legislacao' => $dados['name_page']));
         $this->loadTemplate($viewName, $dados);
     }
 
@@ -48,7 +48,7 @@ class legislacaoController extends controller {
 
         $crudModel = new crud_db();
         $dados['name_page'] = "Instruções normativas";
-        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao', array('legislacao' => $dados['name_page']));
+        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao ORDER BY categoria, esfera, ano, numero ASC', array('legislacao' => $dados['name_page']));
         $this->loadTemplate($viewName, $dados);
     }
 
@@ -58,7 +58,7 @@ class legislacaoController extends controller {
 
         $crudModel = new crud_db();
         $dados['name_page'] = "Portarias";
-        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao', array('legislacao' => $dados['name_page']));
+        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao ORDER BY categoria, esfera, ano, numero ASC', array('legislacao' => $dados['name_page']));
         $this->loadTemplate($viewName, $dados);
     }
 
@@ -68,7 +68,7 @@ class legislacaoController extends controller {
 
         $crudModel = new crud_db();
         $dados['name_page'] = "Resoluções";
-        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao', array('legislacao' => $dados['name_page']));
+        $dados['decretos'] = $crudModel->read('SELECT * FROM legislacoes WHERE categoria=:legislacao ORDER BY categoria, esfera, ano, numero ASC', array('legislacao' => $dados['name_page']));
         $this->loadTemplate($viewName, $dados);
     }
 

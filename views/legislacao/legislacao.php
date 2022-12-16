@@ -1,5 +1,5 @@
 <!--container-->
-<div class="container">
+<div class="container mt-3">
     <div class="row">
         <div class="col">
             <h3 class="mb-0"><?php echo !empty($name_page) ? $name_page : ''?></h3>
@@ -27,7 +27,7 @@
                                 <td>DATA</td>
                                 <td>EMENTA</td>
                                 <td>DIÁRIO</td>
-                                <td>ANÉXO</td>
+                                <td>ANEXO</td>
                             </tr>
                         </thead>
                         <tbody>
