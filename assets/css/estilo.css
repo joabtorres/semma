@@ -17,6 +17,9 @@
 .text-strong ul li{
     font-weight: normal;
 }
+.blockquote{
+    font-size: 1.05em;
+}
 .bg-cinza{
     background: #E4E6E5;
 }
@@ -61,6 +64,16 @@
     background-position: bottom;
     background-size: cover;
 }
+@media(max-width: 1368px){
+    #banner-topo{
+        min-height: 300px;
+    }
+}
+@media(max-width: 990px){
+    #banner-topo{
+        min-height: 250px;
+    }
+}
 .navbar-nav  .nav-link{
     color: black;
 }
@@ -75,4 +88,8 @@
     .aviso-topo .list-inline{
         display: none;
     }
+}
+
+footer{
+    border-top: 1px solid #e20613;
 }

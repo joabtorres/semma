@@ -24,4 +24,11 @@ class cprnController extends controller {
         $this->loadTemplate($viewName, $dados);
     }
 
+    public function educacao() {
+        $dados = array();
+        $viewName = 'cprn/educacao';
+        $dados['name_page'] = "Educação Ambiental";
+        $this->loadTemplate($viewName, $dados);
+    }
+
 }

@@ -18,4 +18,11 @@ class cofiscController extends controller {
         $this->loadTemplate($viewName, $dados);
     }
 
+    public function denuncia(){
+        $dados = array();
+        $viewName = 'cofisc/denuncia';
+        $dados['name_page'] = "Denúncia Ambiental";
+        $this->loadTemplate($viewName, $dados);
+    }
+
 }

@@ -25,7 +25,7 @@
             </ul>
         </div>
         <div class="col-md-12">
-            <?php for ($i = 1; $i <= 6; $i++): ?>
+            <?php for ($i = 1; $i <= 10; $i++): ?>
                 <a class="rounded img-responsive example-image-link " href="<?php echo BASE_URL ?>uploads/galeria/cla/<?php echo sprintf("%02d", $i) ?>.jpg" data-lightbox="example-set" data-title=""><img class="rounded mb-1 lightbox-image " src="<?php echo BASE_URL ?>uploads/galeria/cla/min/<?php echo sprintf("%02d", $i) ?>.jpg" alt="Coordenadoria de Licenciamento Ambiental"/></a>
                 <?php endfor; ?>
         </div>

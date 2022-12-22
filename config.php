@@ -24,7 +24,7 @@ if (ENVIRONMENT == 'development') {
      //Raiz
     define("BASE_URL", "https://localhost/sispam/");
     //Nome do banco
-    $config['dbname'] = 'sispam';
+    $config['dbname'] = 'NOMEDOBANCO';
     //host
     $config['host'] = 'localhost';
     //usuario

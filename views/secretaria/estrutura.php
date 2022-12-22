@@ -15,7 +15,7 @@
 
     <!--row-->
     <div class="row">
-        <div  class="col-12 mt-3 mb-3">
+        <div  class="col-12 mt-3 mb-3 text-center">
             <img class="img-center img-fluid" src="<?php echo BASE_URL ?>assets/imagens/estrutura_organizacional.png"/>
         </div>
         <div class="col-12">
