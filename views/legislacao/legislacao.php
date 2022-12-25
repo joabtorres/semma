@@ -39,7 +39,9 @@
                                     <td><?php echo!empty($index['data']) ? $index['data'] : '' ?></td>
                                     <td><?php echo!empty($index['ementa']) ? $index['ementa'] : '' ?></td>
                                     <td><?php echo!empty($index['diario']) ? '<a href="' . $index['diario'] . '" target="_blank" class="text-primary btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : '' ?></td>
-                                    <td><?php echo!empty($index['anexo']) ? '<a href="' . $index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : '' ?></td>
+veririca se existe no servidor primeiro e depois buscar em servidor externo
+file exist (BASE_URL.ANEXO)
+                                    <td><?php  echo!empty($index['anexo']) ? '<a href="' . BASE_URL.$index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : '' ?></td>
                                 </tr>
                             <?php endforeach; ?>
                         </tbody>
