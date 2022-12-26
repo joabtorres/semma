@@ -2,12 +2,12 @@
 <div class="container mt-3">
     <div class="row">
         <div class="col">
-            <h3 class="mb-0"><?php echo !empty($name_page) ? $name_page : ''?></h3>
+            <h3 class="mb-0"><?php echo!empty($name_page) ? $name_page : '' ?></h3>
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>">Página Inicial</a></li>
-                    <li class="breadcrumb-item"><a href="<?php echo BASE_URL?>legislacao">Legislação</a></li>
-                    <li class="breadcrumb-item active"><?php echo !empty($name_page) ? $name_page : ''?></li>
+                    <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>legislacao">Legislação</a></li>
+                    <li class="breadcrumb-item active"><?php echo!empty($name_page) ? $name_page : '' ?></li>
                 </ol>
             </nav>
         </div>
@@ -31,17 +31,23 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php foreach ($decretos as $index) : ?>
+                            <?php foreach ($decretos as $index): ?>
                                 <tr>
                                     <td><?php echo!empty($index['esfera']) ? $index['esfera'] : ''; ?></td>
                                     <td><?php echo!empty($index['numero']) ? $index['numero'] : ''; ?></td>
                                     <td><?php echo!empty($index['ano']) ? $index['ano'] : '' ?></td>
                                     <td><?php echo!empty($index['data']) ? $index['data'] : '' ?></td>
                                     <td><?php echo!empty($index['ementa']) ? $index['ementa'] : '' ?></td>
-                                    <td><?php echo!empty($index['diario']) ? '<a href="' . $index['diario'] . '" target="_blank" class="text-primary btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : '' ?></td>
-veririca se existe no servidor primeiro e depois buscar em servidor externo
-file exist (BASE_URL.ANEXO)
-                                    <td><?php  echo!empty($index['anexo']) ? '<a href="' . BASE_URL.$index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : '' ?></td>
+                                    <?php if (file_exists($index['diario'])): ?>
+                                        <td><?php echo!empty($index['diario']) ? '<a href="' . BASE_URL . $index['diario'] . '" target="_blank" class="text-primary btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?></td>
+                                    <?php else: ?>
+                                        <td><?php echo!empty($index['diario']) ? '<a href="' . $index['diario'] . '" target="_blank" class="text-primary btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?></td>
+                                    <?php endif; ?>                            
+                                    <?php if (file_exists($index['anexo'])): ?>
+                                        <td><?php echo!empty($index['anexo']) ? '<a href="' . BASE_URL . $index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?>
+                                        <?php else: ?>
+                                        <td><?php echo!empty($index['anexo']) ? '<a href="' . $index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?>
+                                        <?php endif; ?>
                                 </tr>
                             <?php endforeach; ?>
                         </tbody>
@@ -52,13 +58,8 @@ file exist (BASE_URL.ANEXO)
                 echo 'Nenhum registro encontrado!';
             endif;
             ?>
-
-
-
         </div>
     </div>
     <!--row-->
-
-
 </div>
 <!--container-->
