@@ -44,9 +44,9 @@
                                         <td><?php echo!empty($index['diario']) ? '<a href="' . $index['diario'] . '" target="_blank" class="text-primary btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?></td>
                                     <?php endif; ?>                            
                                     <?php if (file_exists($index['anexo'])): ?>
-                                        <td><?php echo!empty($index['anexo']) ? '<a href="' . BASE_URL . $index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?>
+                                        <td><?php echo!empty($index['anexo']) ? '<a href="' . BASE_URL . $index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?></td>
                                         <?php else: ?>
-                                        <td><?php echo!empty($index['anexo']) ? '<a href="' . $index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?>
+                                        <td><?php echo!empty($index['anexo']) ? '<a href="' . $index['anexo'] . '" target="_blank" class="text-danger btn"><i class="fa-solid fa-file-pdf fa-2x"></i></a>' : ''; ?></td>
                                         <?php endif; ?>
                                 </tr>
                             <?php endforeach; ?>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 22-Dez-2022 às 12:05
+-- Tempo de geração: 02-Jan-2023 às 17:59
 -- Versão do servidor: 10.4.25-MariaDB
 -- versão do PHP: 8.1.10
 
@@ -89,12 +89,13 @@ INSERT INTO `legislacoes` (`cod`, `categoria`, `esfera`, `numero`, `ano`, `data`
 (13, 'Resoluções', 'CMMA', '001', 2019, '19/12/2019', 'Aprovar o Regimento Interno do Conselho Municipal de Defesa do Meio Ambiente – CMMA, na forma do anexo único, que desta passa a fazer parte integrante', 'https://drive.google.com/file/d/1wb19dZNFFXzFU9HaBPqwuYBDCwOOpRoe/view', ''),
 (14, 'Resoluções', 'CMMA', '002', 2020, '27/11/2020', 'Criar 02 (duas) Câmaras Técnicas Permanentes do Conselho Municipal de Defesa do Meio Ambiente, que doravante terá a seguinte composição: I - ASSUNTOS JURÍDICOS; II - ASSUNTOS DE POLUIÇÃO E DEGRADAÇÃO AMBIENTAL.', 'https://drive.google.com/file/d/1D8UlbIugapqcX0zFeS6A63q5NKrOsOzn/view', ''),
 (15, 'Resoluções', 'CMMA', '003', 2020, '27/11/2020', 'Nomear a Conselheira MARIA DO AMPARO MEDEIROS GONÇALVES, representante da Associação Comercial e Industrial da Castanhal – ACIC, como Secretária Executiva do CMMA, mediante votação do Plenário, conforme o disposto no artigo 26 do seu Regimento Interno', 'https://drive.google.com/file/d/1D8UlbIugapqcX0zFeS6A63q5NKrOsOzn/view', ''),
-(16, 'Resoluções', 'CMMA', '004', 2021, '20/10/2021', 'Regulamenta a Licença Ambiental Simplificada - LAS, Licença Ambiental Declaratória - LAD e a Dispensa de Licenciamento Ambiental – DLA, concedidas pela Secretaria Municipal de Meio Ambiente aos empreendimentos que realizarem obras e/ou atividades de baixo potencial poluidor/degradador, no âmbito do Município de Castanhal, conforme os critérios a seguir estabelecidos.', 'https://drive.google.com/file/d/14oclEj-o5Pz7uq7Uiy5yvmCZgAdGlEgz/view', ''),
 (17, 'Resoluções', 'CMMA', '005', 2021, '22/12/2021', 'Aprovar o Regimento Interno do Conselho Municipal de Defesa do Meio Ambiente – CMMA, na forma do anexo único, que desta passa a fazer parte integrante', 'https://drive.google.com/file/d/1yJovHioYUl5DPB6Ydd1kZllkRHCdy7Bm/view?usp=drive_web', ''),
 (18, 'Resoluções', 'CMMA', '006', 2022, '10/03/2022', 'Alterar os Itens 1.1.7 do ANEXO II, III e IV da Resolução CMMA n° 004/2021, para acrescentar a Certidão de Uso e Ocupação do Solo, o qual passa a vigorar com a seguinte alteração: 1. Documentos Administrativos: 1.1. Obrigatórios: 1.1.7 Alvará de Localização e Funcionamento ou Certidão de Uso e Ocupação do Solo;', 'https://drive.google.com/file/d/1aaPxXWGxwjn9k4z5DdcxzpgeszNMqL3b/view?usp=drive_web', ''),
 (19, 'Resoluções', 'COEMA', '162', 2021, '02/02/2021', 'Regulamenta as atividades de impacto ambiental local, para fins de licenciamento ambiental, de competência dos Municípios no âmbito do Estado do Pará.', 'https://www.ioepa.com.br/pages/2021/2021.02.19.DOE.pdf', 'https://www.semas.pa.gov.br/legislacao/files/pdf/25758.pdf'),
 (20, 'Portarias', 'Municipal', '001', 2022, '11/01/2022', 'Fica determinado, a partir de 11 de janeiro de 2022, a realização de expediente interno pela Coordenadoria de Licenciamento Ambiental - CLA às sextas-feiras.', 'https://drive.google.com/file/d/17pz3HoyaTKGjFMLWEZRb65S7ALbvT2_6/view', ''),
-(21, 'Portarias', 'Municipal', '1479', 2022, '01/09/2022', 'Considerando, o ofício nº575/2022/GAB/COFISC/SEMMA/PMC, constante do Processo nº2022/8/6083;Art. 1º - Lotar o servidor Luiz Henrique Vilela Araújo, cargo Veterinário, na Coordenadoria de Fiscalização Ambiental da Secretaria Municipal de Meio Ambiente.', 'https://www.google.com/url?q=https://drive.google.com/file/d/1vXq-Rn_YpsxVci6ACzOeGinSqmpMDjz5/view&sa=D&source=editors&ust=1670867927629001&usg=AOvVaw0WjVNgIgLmmBW1R3louMe7', 'https://www.google.com/url?q=https://drive.google.com/file/d/1GJPeKgNhE0s-SNqpFxWVj-wKH6EJxzV3/view?usp%3Dsharing&sa=D&source=editors&ust=1670867927629048&usg=AOvVaw2q92UvqRn92QU4KMfBzWMM');
+(21, 'Portarias', 'Municipal', '1479', 2022, '01/09/2022', 'Considerando, o ofício nº575/2022/GAB/COFISC/SEMMA/PMC, constante do Processo nº2022/8/6083;Art. 1º - Lotar o servidor Luiz Henrique Vilela Araújo, cargo Veterinário, na Coordenadoria de Fiscalização Ambiental da Secretaria Municipal de Meio Ambiente.', 'https://www.google.com/url?q=https://drive.google.com/file/d/1vXq-Rn_YpsxVci6ACzOeGinSqmpMDjz5/view&sa=D&source=editors&ust=1670867927629001&usg=AOvVaw0WjVNgIgLmmBW1R3louMe7', 'https://www.google.com/url?q=https://drive.google.com/file/d/1GJPeKgNhE0s-SNqpFxWVj-wKH6EJxzV3/view?usp%3Dsharing&sa=D&source=editors&ust=1670867927629048&usg=AOvVaw2q92UvqRn92QU4KMfBzWMM'),
+(28, 'Resoluções', 'CMMA', '007', 2022, '24/11/2022', 'Ficam estabelecidos os novos enquadramentos dos intervalos das tipologias Comércio varejista de gás liquefeito de petróleo (GLP) e Avicultura para postura e corte (frango, codorna e outros), constante no ANEXO I da Resolução CMMA n° 004/2021, de 20 de outubro de 2021, passando a vigorar com a seguinte alteração', 'https://drive.google.com/file/d/1EolQbpTUUKo2l0IbGLv8wCYO5HQPrNQx/view', ''),
+(29, 'Resoluções', 'CMMA', '004', 2021, '20/10/2021', 'Regulamenta a Licença Ambiental Simplificada - LAS, Licença Ambiental Declaratória - LAD e a Dispensa de Licenciamento Ambiental – DLA, concedidas pela Secretaria Municipal de Meio Ambiente aos empreendimentos que realizarem obras e/ou atividades de baixo potencial poluidor/degradador, no âmbito do Município de Castanhal, conforme os critérios a seguir estabelecidos.', 'https://drive.google.com/file/d/14oclEj-o5Pz7uq7Uiy5yvmCZgAdGlEgz/view', 'uploads/legislacao/b601975cb13ed3cb4f8f8074dcbb7ff8.pdf');
 
 -- --------------------------------------------------------
 
@@ -3032,7 +3033,60 @@ INSERT INTO `termos_de_referencia` (`id`, `tipo`, `data`, `descricao`, `anexo`) 
 (15, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Obras de Construção Civil, Loteamento e Parcelamento do Solo', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_OBRAS_DE_CONSTRUCAO_CIVIL_E_LOTEAMENTO_E_PARCELAMENTO_DO_SOLO.pdf'),
 (16, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Oficina Mecânica, Lanternagem e Pintura de Veículos Automotores', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_OFICINA_MECANICA_LANTERNAGEM_E_PINTURA_DE_VEICULOS_AUTOMOTORES.pdf'),
 (17, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Posto Revendedor, Posto de Abastecimento, Posto Varejista de Querosene e Gasolina de Aviação, Exceto Posto Flutuante', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_POSTO_REVENDEDOR_POSTO_DE_ABASTECIMENTO_POSTO_VAREJISTA_DE_QUEROSENE_E_GASOLINA_DE_AVIACAO_EXCETO_POSTO_FLUTUANTE.pdf'),
-(18, 'Termo de Referência', 'Outubro/2022', 'Renovação de Licenciamento Ambiental Geral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_RENOVACAO_DE_LICENCIAMENTO_AMBIENTAL_GERAL.pdf');
+(18, 'Termo de Referência', 'Outubro/2022', 'Renovação de Licenciamento Ambiental Geral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_RENOVACAO_DE_LICENCIAMENTO_AMBIENTAL_GERAL.pdf'),
+(19, ' Termo de Referência', 'Dezembro/2022', 'Plano de Recuperação de Áreas Degradadas (PRAD) para Atividades Passíveis de Licenciamento Ambiental', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_PRAD_ATIVIDADES_PASSIVEIS_DE_LICENCIAMENTO.pdf');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `usuario`
+--
+
+CREATE TABLE `usuario` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `nome` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  `status` int(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `usuario`
+--
+
+INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`, `status`) VALUES
+(1, 'Joab Alencar', 'joabtorres1508@gmail.com', '$2y$10$8CqfTWhMXLbCFYTx52/druvRvwL0CRGIExIbwzFsbHrmcoLWhGdnS', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `visitantes`
+--
+
+CREATE TABLE `visitantes` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `ano` int(11) NOT NULL,
+  `mes` varchar(255) NOT NULL,
+  `vizualizacoes` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `visitantes`
+--
+
+INSERT INTO `visitantes` (`id`, `ano`, `mes`, `vizualizacoes`) VALUES
+(1, 2023, 'Janeiro', 10),
+(2, 2023, 'Fevereiro', 60),
+(3, 2023, 'Março', 24),
+(4, 2023, 'Abril', 55),
+(6, 2023, 'Maio', 54),
+(7, 2023, 'Junho', 325),
+(8, 2023, 'Julho', 263),
+(9, 2023, 'Agosto', 46),
+(10, 2023, 'Setembro', 645),
+(11, 2023, 'Outubro', 244),
+(12, 2023, 'Novembro', 545),
+(13, 2023, 'Dezembro', 141);
 
 --
 -- Índices para tabelas despejadas
@@ -3063,6 +3117,18 @@ ALTER TABLE `termos_de_referencia`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Índices para tabela `usuario`
+--
+ALTER TABLE `usuario`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Índices para tabela `visitantes`
+--
+ALTER TABLE `visitantes`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
@@ -3076,7 +3142,7 @@ ALTER TABLE `formularios`
 -- AUTO_INCREMENT de tabela `legislacoes`
 --
 ALTER TABLE `legislacoes`
-  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT de tabela `licencas_emitidas`
@@ -3088,7 +3154,19 @@ ALTER TABLE `licencas_emitidas`
 -- AUTO_INCREMENT de tabela `termos_de_referencia`
 --
 ALTER TABLE `termos_de_referencia`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+
+--
+-- AUTO_INCREMENT de tabela `usuario`
+--
+ALTER TABLE `usuario`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT de tabela `visitantes`
+--
+ALTER TABLE `visitantes`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
