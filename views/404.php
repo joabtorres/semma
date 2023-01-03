@@ -8,7 +8,7 @@
         <link rel="icon" type="image/gif" href="<?php echo BASE_URL ?>assets/imagens/icon.png" sizes="32x32" />
         <meta property="ogg:title" content="<?php echo NAME_PROJECT ?>">
         <meta property="ogg:description" content="<?php echo NAME_PROJECT ?>">
-        <title> SIASIF - Sistema de Gerenciamento de Afastamento para Qualificação de Servidores do IFPA  </title>
+        <title> <?php echo BASE_URL?>  </title>
         <!-- Bootstrap -->
         <link href="<?php echo BASE_URL ?>assets/css/bootstrap.min.css" rel="stylesheet">
         <style>
