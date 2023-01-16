@@ -30,22 +30,13 @@
         <div class="container aviso-topo">
             <div class="navbar-text mt-2 mb-2 "> Atendimento: segunda a sexta, das 8h às 14h</div>
             <ul class="list-inline text-end mb-2 mt-2">
-                <li class="list-inline-item"><a
-                        href="https://castanhal.cr2transparencia.com.br/portal-da-transparencia/fale-conosco/"
-                        target="_blank">FALE CONOSCO</a>
-                <li class="list-inline-item"><a href="http://www2.castanhal.pa.gov.br/ouvidoria"
-                        target="_blank">OUVIDORIA</a>
-                <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/"
-                        target="_blank">TRANSPARÊNCIA</a>
-                <li class="list-inline-item"><a
-                        href="https://sites.google.com/view/fala-br-sic-castanhal/sic-castanhal?authuser=2"
-                        target="_blank">SIC-CASTANHAL</a>
-                <li class="list-inline-item"><a href="https://www.facebook.com/prefeituradecastanhal" target="_blank"><i
-                            class="fa-brands fa-facebook-square fa-2xl"></i></a>
-                <li class="list-inline-item"><a href="https://www.instagram.com/prefeituradecastanhal"
-                        target="_blank"><i class="f fa-brands fa-instagram-square fa-2xl"></i></a>
-                <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCWHZ0VPQs9neylkl0bvRhiw"
-                        target="_blank"><i class="fa-brands fa-youtube-square fa-2xl"></i></a>
+                <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/portal-da-transparencia/fale-conosco/" target="_blank">FALE CONOSCO</a>
+                <li class="list-inline-item"><a href="http://www2.castanhal.pa.gov.br/ouvidoria" target="_blank">OUVIDORIA</a>
+                <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/" target="_blank">TRANSPARÊNCIA</a>
+                <li class="list-inline-item"><a href="https://sites.google.com/view/fala-br-sic-castanhal/sic-castanhal?authuser=2" target="_blank">SIC-CASTANHAL</a>
+                <li class="list-inline-item"><a href="https://www.facebook.com/prefeituradecastanhal" target="_blank"><i class="fa-brands fa-facebook-square fa-2xl"></i></a>
+                <li class="list-inline-item"><a href="https://www.instagram.com/prefeituradecastanhal" target="_blank"><i class="f fa-brands fa-instagram-square fa-2xl"></i></a>
+                <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCWHZ0VPQs9neylkl0bvRhiw" target="_blank"><i class="fa-brands fa-youtube-square fa-2xl"></i></a>
             </ul>
         </div>
     </div>
@@ -57,9 +48,7 @@
     <!--MENU DE NAVEGAÇÃO-->
     <nav class="navbar navbar-expand-lg bg-cinza">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -69,50 +58,42 @@
                         <a class="nav-link" href="<?php echo BASE_URL ?>"><i class="fa fa-home"></i> Página Inícial</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa fa-institution"></i> Secretaria
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>secretaria">Secretaria</a></li>
-                            <li><a class="dropdown-item"
-                                    href="<?php echo BASE_URL ?>secretaria/estrutura_organizacional"> Estrutura
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>secretaria/estrutura_organizacional"> Estrutura
                                     Organizacional</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-scale-unbalanced-flip"></i> Legislação
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/decretos">Decretos</a>
                             </li>
-                            <li><a class="dropdown-item"
-                                    href="<?php echo BASE_URL ?>legislacao/instrucoes_normativas">Instruções
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/instrucoes_normativas">Instruções
                                     normativas</a></li>
-                            <li><a class="dropdown-item"
-                                    href="<?php echo BASE_URL ?>legislacao/leis_complementares">Leis Complementares</a>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/leis_complementares">Leis Complementares</a>
                             </li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/leis">Leis</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/portarias">Portarias</a>
                             </li>
-                            <li><a class="dropdown-item"
-                                    href="<?php echo BASE_URL ?>legislacao/resolucoes">Resoluções</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>legislacao/resolucoes">Resoluções</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-people-group"></i> Licenciamento
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla">Coordenadoria de Licenciamento
                                     Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/formularios">Formulários</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/termos_de_referencia">Termos de
                                     Referência</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/formularios">Formulários</a>
-                            </li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/licencas_emitidas">Licenças
                                     Emitidas</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/enquadramento">Simulador de
@@ -120,8 +101,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-people-group"></i> Fiscalização
                         </a>
                         <ul class="dropdown-menu">
@@ -136,19 +116,16 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-people-group"></i> Recursos Naturais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn">Coordenadoria de Proteção dos
-                                    Recursos Naturais e Educação Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn">Coordenadoria de Proteção de Recursos Naturais e Educação Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn/formularios">Formulários</a> </li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn/educacao">Educação
                                     Ambiental</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn/car">Cadastro Ambiental Rural
                                     (CAR)</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn/formularios">Formulários</a>
-                            </li>
                         </ul>
                     </li>
                 </ul>
