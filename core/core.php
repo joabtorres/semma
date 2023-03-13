@@ -10,7 +10,8 @@
  * @package core
  * @example classe core
  */
-class core {
+class core
+{
 
     /**
      * String $url - referente aos caminhos acessados na url do navegador
@@ -45,8 +46,10 @@ class core {
      * @access public
      * @author Joab Torres <joabtorres1508@gmail.com>
      */
-    public function run() {
+    public function run()
+    {
         $this->goHTTPS();
+        $this->checkVisit();
         $this->url = (isset($_GET['url']) && !empty($_GET['url'])) ? $_GET['url'] : "";
         $this->params = array();
         if (!empty($this->url) && $this->url != '/') {
@@ -97,7 +100,8 @@ class core {
      * @access private
      * @author Joab Torres <joabtorres1508@gmail.com>
      */
-    private function goHTTPS() {
+    private function goHTTPS()
+    {
 
         if (!isset($_SERVER['HTTPS']) && ENVIRONMENT == "prodution") {
             if ($_SERVER['HTTPS'] != "on") {
@@ -106,4 +110,9 @@ class core {
         }
     }
 
+    private function checkVisit()
+    {
+        $visitante = new visitante();
+        $visitante->verificaVisitante();
+    }
 }

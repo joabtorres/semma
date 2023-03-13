@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 16-Jan-2023 às 15:50
+-- Tempo de geração: 13-Mar-2023 às 16:26
 -- Versão do servidor: 10.4.25-MariaDB
 -- versão do PHP: 8.1.10
 
@@ -49,7 +49,9 @@ INSERT INTO `formularios` (`cod`, `coordenacao`, `tipo`, `data`, `descricao`, `a
 (6, 'cprn', 'CAR', 'Novembro/2022', 'Ficha de Cadastro Ambiental Rural', 'uploads/formularios/cprn/FICHA_DE_CADASTRO_AMBIENTAL.doc'),
 (7, 'cprn', 'Solicitação', 'Novembro/2022', 'Formulário de Solicitação de Palestras de Educação Ambiental', 'uploads/formularios/cprn/FORMULARIO_DE_SOLICITACAO_DE_PALESTRAS_DE_EDUCACAO_AMBIENTAL.doc'),
 (8, 'cprn', 'Solicitação', 'Novembro/2022', 'Formulário de Solicitação de Placas Educativas', 'uploads/formularios/cprn/FORMULARIO_DE_SOLICITACAO_DE_PLACAS_EDUCATIVAS.doc'),
-(9, 'cofisc', 'Denúncia', 'Novembro/2022', 'Formulário de Denúncia', 'uploads/formularios/cofisc/FORMULARIO_DE_DENUNCIA.doc');
+(9, 'cofisc', 'Denúncia', 'Novembro/2022', 'Formulário de Denúncia', 'uploads/formularios/cofisc/FORMULARIO_DE_DENUNCIA.doc'),
+(13, 'cla', 'Requerimento', 'Janeiro/2023', 'Requerimento para Supressão/Corte', 'uploads/formularios/cla/94a061e536614b49cf33221b5da4fd26.doc'),
+(14, 'cla', 'Requerimento', 'Janeiro/2023', 'Requerimento para Poda', 'uploads/formularios/cla/058579b82d44787d6874cdae1572e418.doc');
 
 -- --------------------------------------------------------
 
@@ -3059,7 +3061,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `nome`, `nome_completo`, `email`, `senha`, `status`, `anexo`, `data`) VALUES
-(1, 'Joab Alencar', '', 'joabtorres1508@gmail.com', '$2y$10$8CqfTWhMXLbCFYTx52/druvRvwL0CRGIExIbwzFsbHrmcoLWhGdnS', 1, '', '2023-01-16'),
+(1, 'Joab Alencar', '', 'joabtorres1508@gmail.com', '$2y$10$8CqfTWhMXLbCFYTx52/druvRvwL0CRGIExIbwzFsbHrmcoLWhGdnS', 1, 'assets/uploads/usuarios/0cb203708688ce7d6f9aac086e4e48e1.jpg', '2023-01-16'),
 (4, 'joab', 'joab 2', 'joab2@gmail.com', '$2y$10$lzmbA1LCpnsJ6QQD79H/xude.zncsSJjAP5tTZSu66I.07lKWaOnK', 1, 'assets/uploads/usuarios/0cb203708688ce7d6f9aac086e4e48e1.jpg', '2023-01-16');
 
 -- --------------------------------------------------------
@@ -3070,28 +3072,18 @@ INSERT INTO `usuario` (`id`, `nome`, `nome_completo`, `email`, `senha`, `status`
 
 CREATE TABLE `visitantes` (
   `id` int(10) UNSIGNED NOT NULL,
-  `ano` int(11) NOT NULL,
-  `mes` varchar(255) NOT NULL,
-  `vizualizacoes` int(11) NOT NULL
+  `ip` varchar(30) NOT NULL,
+  `mes` varchar(30) NOT NULL,
+  `data` varchar(30) NOT NULL,
+  `hora` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `visitantes`
 --
 
-INSERT INTO `visitantes` (`id`, `ano`, `mes`, `vizualizacoes`) VALUES
-(1, 2023, 'Janeiro', 10),
-(2, 2023, 'Fevereiro', 60),
-(3, 2023, 'Março', 24),
-(4, 2023, 'Abril', 55),
-(6, 2023, 'Maio', 54),
-(7, 2023, 'Junho', 325),
-(8, 2023, 'Julho', 263),
-(9, 2023, 'Agosto', 46),
-(10, 2023, 'Setembro', 645),
-(11, 2023, 'Outubro', 244),
-(12, 2023, 'Novembro', 545),
-(13, 2023, 'Dezembro', 141);
+INSERT INTO `visitantes` (`id`, `ip`, `mes`, `data`, `hora`) VALUES
+(25, '::1', 'Março de 2023', '2023-03-13', '16:09');
 
 --
 -- Índices para tabelas despejadas
@@ -3142,7 +3134,7 @@ ALTER TABLE `visitantes`
 -- AUTO_INCREMENT de tabela `formularios`
 --
 ALTER TABLE `formularios`
-  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT de tabela `legislacoes`
@@ -3172,7 +3164,7 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de tabela `visitantes`
 --
 ALTER TABLE `visitantes`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
