@@ -17,7 +17,7 @@ class claController extends controller
 
         $crudModel = new crud_db();
         $dados['name_page'] = "Termos de Referência";
-        $dados['termos_de_referencia'] = $crudModel->read('SELECT * FROM termos_de_referencia');
+        $dados['termos_de_referencia'] = $crudModel->read('SELECT * FROM termos_de_referencia WHERE status=1');
         $this->loadTemplate($viewName, $dados);
     }
 
