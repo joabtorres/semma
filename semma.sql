@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 13-Mar-2023 às 16:26
+-- Tempo de geração: 04-Abr-2023 às 19:08
 -- Versão do servidor: 10.4.25-MariaDB
 -- versão do PHP: 8.1.10
 
@@ -532,7 +532,50 @@ INSERT INTO `licencas_emitidas` (`cod`, `licenca`, `ano`, `n_licenca`, `n_protoc
 (406, 'LICENÇA PRÉVIA', '2022', '0001/2022', '00131/2020/PROC', '05/01/2022', '05/01/2023', 'COOPERATIVA HABITACIONAL NOVA MORADA - VALE DO APEÚ', 'CONDOMINIO HABITACIONAL HORIZONTAL', ''),
 (407, 'LICENÇA PRÉVIA', '2022', '0002/2022', '00145/2021/PROC', '31/01/2022', '31/02/2023', 'EQUATORIAL PARÁ DISTRIBUIDORA DE ENERGIA S/', 'ALINHA DE TRANSMISSÃO', ''),
 (408, 'LICENÇA PRÉVIA', '2022', '0008/2022', '00208/2022/PROC', '17/05/2022', '17/05/2023', 'VANDIZIO O DA SILVA EIRELI (POSTO SANTA CLARA II)', 'POSTO REVENDEDOR, POSTO DE ABASTECIMENTO, POSTO VAREJISTA DE QUEROSENE E GASOLINA DE AVIAÇÃO, EXCETO POSTO FLUTUANTE', ''),
-(409, 'LICENÇA PRÉVIA', '2022', '0009/2022', '00306/2022/PROC', '02/06/2022', '02/06/2024', 'ALINE CRISTINY BASTOS GONÇALVES', 'POSTO REVENDEDOR, POSTO DE ABASTECIMENTO, POSTO VAREJISTA DE QUEROSENE E GASOLINA DE AVIAÇÃO, EXCETO POSTO FLUTUANTE', '');
+(409, 'LICENÇA PRÉVIA', '2022', '0009/2022', '00306/2022/PROC', '02/06/2022', '02/06/2024', 'ALINE CRISTINY BASTOS GONÇALVES', 'POSTO REVENDEDOR, POSTO DE ABASTECIMENTO, POSTO VAREJISTA DE QUEROSENE E GASOLINA DE AVIAÇÃO, EXCETO POSTO FLUTUANTE', ''),
+(411, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2022', '0080/2022', '0309/2022/PROC', '01/12/2022', 'INDETERMINADA', 'ESTANCIA NANUQUE LTDA ', 'Comércio varejista de ferragens, madeira e materiais de construção', ''),
+(412, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2022', '0081/2022', '0595/2018/PROC', '07/12/2022', 'INDETERMINADA', 'LUCILEIA DUARTE DOS SANTOS ', 'BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS', ''),
+(413, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2022', '0082/2022', '0356/2022/PROC', '14/12/2022', 'INDETERMINADA', 'CENTRO EDUCACIONAL PRIMEIRA INFANCIA', 'CENTRO DE PESQUISA E ENSINO', ''),
+(414, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2022', '0083/2022', '0376/2022/PROC', '29/12/2022', 'INDETERMINADA', 'PREFEITURA - PAVIMENTAÇÃO FONTE BOA', 'EXECUÇÃO OU PAVIMENTAÇÃO (ASFÁLTICA, BLOKRETRÍGIDA E OUTROS) EM VIAS COM DRENAGEM PLUVIAL PREEXISTENTE OU EXECUÇÃO COM DRENAGEM PLUVIAL', ''),
+(415, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2022', '0036/2022', '0336/2022/PROC', '06/12/2022', '06/12/2026', 'ANA ERIKA ANDRADE DOS SANTOS ', 'COMÉRCIO VAREJISTA DE GÁS LIQUEFEITO DE PETRÓLEO (GLP)', ''),
+(416, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2022', '0037/2022', '0326/2022/PROC ', '19/12/2022', '19/12/2026', 'T. R. S. DE OLIVEIRA EIRELI', 'COMÉRCIO VAREJISTA DE MATERIAIS METÁLICOS E NÃO-METÁLICOS (SUCATARIA).', ''),
+(417, 'LICENÇA AMBIENTAL DECLARATÓRIA', '2022', '0009/2022', '0331/2022/PROC', '14/12/2022', '14/12/2026', 'IMPERIO INDÚSTRIA DE MÓVEIS PLANEJADOS', 'FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE MADEIRA', ''),
+(418, 'LICENÇA AMBIENTAL DECLARATÓRIA', '2022', '0010/2022', '0324/2022/PROC', '19/12/2022', '19/12/2026', 'MOVELARIA J. A. CARDOSO', 'FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE MADEIRA', ''),
+(419, 'LICENÇA DE OPERAÇÃO', '2022', '0023/2022/LO', '00123/2021/PROC', '29/11/2022', '06/08/2025', 'P G LIMA COM EIRELI', 'COMÉRCIO ATACADISTA DE MEDICAMENTOS E DROGAS DE USO HUMANO', ''),
+(420, 'LICENÇA DE OPERAÇÃO', '2022', '0024/2022/LO', '00207/2021/PROC', '12/12/2022', '12/12/2026', 'M.TAVEIRA DOS SANTOS - CEOP', 'CLÍNICA MÉDICA COM RECURSOS PARA REALIZAÇÃO DE PROCEDIMENTOS CIRÚRGICOS', ''),
+(421, 'LICENÇA DE OPERAÇÃO', '2022', '0025/2022/LO', '0141/2021/PROC', '13/12/2022', '13/12/2026', 'OFICINA TREVO REPARADORA DE VEÍCULOS LTDA', 'SERVIÇOS AUTOMOTIVOS', ''),
+(422, 'LICENÇA DE INSTALAÇÃO', '2022', '0011/2022', '00136/2021/PROC', '06/12/2022', '06/12/2024', 'TÁTICA ENGENHARIA IMOBILIÁRIA E REPRESENTAÇÕES LTDA', 'CONDOMINIO HABITACIONAL HORIZONTAL', ''),
+(423, 'LICENÇA PRÉVIA', '2022', '0010/2022', '00136/2021/PROC', '06/12/2022', '06/12/2023', 'TÁTICA ENGENHARIA IMOBILIÁRIA E REPRESENTAÇÕES LTDA', 'CONDOMINIO HABITACIONAL HORIZONTAL', ''),
+(424, 'LICENÇA PRÉVIA', '2023', '0001/2023', '0038/2022/PROC', '11/01/2023', '11/01/2025', 'POSTO CASTANHAL COMERCIO DE COMBUSTIVEIS', 'POSTO REVENDEDOR, POSTO DE ABASTECIMENTO', ''),
+(425, 'LICENÇA DE INSTALAÇÃO', '2023', '0001/2023', '0038/2022/PROC', '11/01/2023', '11/01/2025', 'POSTO CASTANHAL COMERCIO  DE COMBUSTIVEIS ', 'POSTO REVENDEDOR,POSTO DE ABASTECIMENTO', ''),
+(426, 'LICENÇA DE OPERAÇÃO', '2023', '0001/2023', '0112/2022/PROC', '04/01/2023', '04/01/2027', 'POSTO CÉU LTDA', 'Posto Revendedor, Posto de Abastecimento, Posto Varejista de Querosene e Gasolina de Aviação, exceto Posto Flutuante', ''),
+(427, 'LICENÇA DE OPERAÇÃO', '2023', '0002/2023', '0230/2022/PROC', '23/01/2023', '23/01/2027', 'ARTHUR DA SILVA MONTEIRO (OFICINA DO ANANIAS)', 'SERVIÇOS AUTOMOTIVOS:VENDA DE PEÇAS, OFICINA MECÂNICA, TROCA DE ÓLEO, BORACHARRIA E SERVIÇOS DECAMBAGEM, ALINHAMENTO E BALANCEAMENTO', ''),
+(428, 'LICENÇA DE OPERAÇÃO', '2023', '0003/2023', '00224/2022/PROC', '07/02/2023', '07/02/2027', 'POSTO DE COMBUSTÍVEL NOVO ESTRELA LTDA', 'Posto Revendedor, Posto de Abastecimento, Posto Varejista de Querosene e Gasolina de Aviação, exceto Posto Flutuante', ''),
+(429, 'LICENÇA DE OPERAÇÃO', '2023', '0004/2023', '00150/2021/PROC', '09/02/2023', '09/02/2027', 'POSTO ICCAR LTDA', 'Posto Revendedor, Posto de Abastecimento,Posto Varejista de Querosene e Gasolina deAviação, exceto Posto Flutuante', ''),
+(430, 'LICENÇA DE OPERAÇÃO', '2023', '0005/2023', '0216/2022/PROC', '14/02/2023', '14/02/2027', 'CLÍNICA ESPAÇO VIDA LTDA', 'Posto Revendedor, Posto de Abastecimento,Posto Varejista de Querosene e Gasolina deAviação, exceto Posto Flutuante', ''),
+(431, 'LICENÇA DE OPERAÇÃO', '2023', '0006/2023', '161/2022/PROC', '28/02/2023', '28/02/2027', 'QUINTA DO BOSQUE', 'CONDOMÍNIO HABITACIONAL HORIZONTAL, SEM FRACIONAMENTO.', ''),
+(432, 'LICENÇA DE OPERAÇÃO', '2023', '0007/2023', '0299/2022/PROC', '28/02/2023', '28/02/2027', 'TROPOC-PRODUTOS TROPICAIS DE CASTANHAL LTDA', 'BENEFICIAMENTO E MOAGEM DE PRODUTOS ALIMENTICIOS ', ''),
+(433, 'LICENÇA DE OPERAÇÃO', '2023', '0008/2023', '00101/2021/PROC', '28/02/2023', '27/02/2027', 'R A ALIMENTOS PRODUTOS ARTESANAIS LTDA', 'FABRICAÇÃO DE ESPECIARIAS, MOLHOS, TEMPEROS E CONDIMENTOS', ''),
+(434, 'AUTORIZAÇÃO DE FUNCIONAMENTO / EVENTO TEMPORÁRIO', '2023', '0001/2023', '050/2023/PROC', '02/03/2023', '12/03/2023', 'ÉGUA DO BLOCO 2º EDIÇÃO', 'CASA DE SHOW E EVENTOS', ''),
+(435, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2023', '0001/2023', '0355/2022/PROC', '02/01/2023', 'INDETERMINADO', 'C D CASTANHAL COMÉRCIO VAREJISTA DE COSMÉTICOS LTDA', 'COMÉRCIO VAREJISTA DE PRODUTOS DE PERFUMARIA  E COSMÉTICOS E ARTIGOS MÉDICOS, ÓPTICOS E ORTOPÉDICOS E HIGIENE PESSOAL', ''),
+(436, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2023', '0002/2023', '0351/2022/PROC', '04/01/2023', 'INDETERMINADO', 'BRASIL NORTE COMÉCIO DE MATERIAIS EM GERAL', ' COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS EM GERAL ', ''),
+(437, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2023', '0003/2023', '00470/2018/PROC', '13/01/2023', 'INDETERMINADO', 'SABOR PARAENSE COMERCIO E INDUSTRIA DE ALIMENTOS', 'FABRICAÇÃO DE FÉCULA, AMIDO E SEUS DERIVADOS', ''),
+(438, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2023', '0004/2023', '0373/2025/PROC', '23/01/2023', 'INDETERMINADO', 'SOARES E MARTINS LTDA', 'CENTRO DE PESQUISA E ENSINO', ''),
+(439, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2023', '0005/2023', '00251/2021', '23/01/2023', 'INDETERMINADO', 'PREFEITURA - ACADEMIA AO AR LIVRE AGROVILA SÃO RAIMUNDO', 'Construção, reforma ou ampliação de quadras de esportes, praças, campos de futebol, centros de eventos, igrejas, templos religiosos, feira livre ou coberta, mercado, creches, centros de inclusão digital, bem como outras obras civis de interesse social (exceto conjunto habitacional de interesse social).', ''),
+(440, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2023', '0006/2023', '0024/2023/PROC', '23/02/2023', 'INDETERMINADO', 'PREFEITURA - PAVIMENTAÇÃ TRANSCASTANHAL -  SEMOB', 'EXECUÇÃO OU PAVIMENTAÇÃO (ASFÁLTICA, BLOKRETRÍGIDA E OUTROS) EM VIAS COM DRENAGEM PLUVIAL PREEXISTENTE OU EXECUÇÃO COM DRENAGEM PLUVIAL', ''),
+(441, 'DISPENSA DE LICENCIAMENTO AMBIENTAL', '2023', '0007/2023', '0060/2023/PROC', '14/03/2023', 'INDETERMINADO', 'PREFEITURA - PAVIMENTAÇÃO BOA VISTA E SANTA RITA - SEMOB', 'EXECUÇÃO OU PAVIMENTAÇÃO (ASFÁLTICA, BLOKRETRÍGIDA E OUTROS) EM VIAS COM DRENAGEM PLUVIAL PREEXISTENTE OU EXECUÇÃO COM DRENAGEM PLUVIAL', ''),
+(442, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0001/2023', '0357/2022/PROC', '05/01/2023', '05/01/2027', 'ESTRELA GÁS LTDA', 'COMÉRCIO VEREJISTA DE GÁS E LIQUEIFEITO ', ''),
+(443, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0002/2023', '0363/2022/PROC', '10/02/2023', '10/02/2027', 'ASB RECICLO INDÚSTRIA E COMÉRIO', 'CENTRAL DE TRIAGEM E/OU CENTRAL DE COMPOSTAGEM E/OU CENTRAL DE RECICLAGEM', ''),
+(444, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0003/2023', '0365/2022/PROC', '08/03/2023', '08/03/2027', 'M PIRES ECOPIRES SOLUÇÕES E RESÍDUOS ', 'CENTRAL DE TRIAGEM E/OU CENTRAL DE COMPOSTAGEM E/OU CENTRAL DE RECICLAGEM', ''),
+(445, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0004/2023', '00113/2021/PROC', '08/03/2023', '08/03/2024', 'IHS BRASIL', 'TELEFONIA CELULAR', ''),
+(446, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0005/2023', '0372/2022/PROC', '08/03/2023', '08/03/2027', 'AGROMILHO INDÚSTRIA E COMÉRCIO ', 'FABRICAÇÃO DE RAÇÃO BALANCEADA E ALIMENTOSS PREPARADOS PARA ANIMAIS', ''),
+(447, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0006/2024', '0025/2023/PROC', '10/03/2023', '10/03/2027', 'FABIANA GÁS', 'FABIANA GÁS LTDA', ''),
+(448, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0007/2023', '0321/2022/PROC', '20/03/2023', '20/03/2027', 'TIM S.A (PACST003_4S-PAS029)', 'TELEFONIA CELULAR', ''),
+(449, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0008/2023', '0246/2022/PROC', '20/03/2023', '20/03/2027', 'SBA TORRES BRASIL LIMITADA BR57073-A', 'TELEFONIA CELULAR', ''),
+(450, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0009/2023', '0247/2022/PROC', '20/03/2023', '20/03/2027', 'SBA TORRES BRASIL LIMITADA BR76001-A', 'TELEFONIA CELULAR', ''),
+(451, 'LICENÇA AMBIENTAL SIMPLIFICADA', '2023', '0010/2023', '0021/2023/PROC', '24/03/2023', '24/03/2027', 'MARIA DE FATIMA SILVA DOS SANTOS ', 'CASAS DE FESTAS E EVENTOS ', ''),
+(452, 'LICENÇA AMBIENTAL DECLARATÓRIA', '2023', '0001/2023', '00224/2021/PROC', '08/03/2023', '08/03/2027', 'ASSOCIAÇÃO DE TIRO E ESPORTES CAMPESTRES DE CASTANHAL – ASTECCA', 'CLUBE, SOCIAIS, ESPORTIVOS E SIMILARES', ''),
+(453, 'LICENÇA DE INSTALAÇÃO', '2023', '0002/2023', '00286/2022/PROC', '23/01/2023', '23/01/2025', 'AUTO POSTO DE COMBUSTÍVEIS CAMPEÃO LTDA.', 'POSTO REVENDEDOR,POSTO DE ABASTECIMENTO', '');
 
 -- --------------------------------------------------------
 
@@ -3010,6 +3053,7 @@ CREATE TABLE `termos_de_referencia` (
   `id` int(10) UNSIGNED NOT NULL,
   `tipo` varchar(30) NOT NULL,
   `data` varchar(20) NOT NULL,
+  `status` int(1) NOT NULL,
   `descricao` text NOT NULL,
   `anexo` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -3018,26 +3062,26 @@ CREATE TABLE `termos_de_referencia` (
 -- Extraindo dados da tabela `termos_de_referencia`
 --
 
-INSERT INTO `termos_de_referencia` (`id`, `tipo`, `data`, `descricao`, `anexo`) VALUES
-(1, 'Termo de Referência', 'Outubro/2022', 'Licença Ambiental Simplificada', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL_SIMPLIFICADA.pdf'),
-(2, 'Termo de Referência', 'Outubro/2022', 'Licença Ambiental Declaratória', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL_DECLARATORIA.pdf'),
-(3, 'Termo de Referência', 'Outubro/2022', 'Autorização de Evento Temporário', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_AUTORIZACAO_DE_EVENTO_TEMPORARIO.pdf'),
-(4, 'Termo de Referência', 'Outubro/2022', 'Carta Consulta Atualizada', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_CARTA_CONSULTA_ATUALIZADA.pdf'),
-(5, 'Termo de Referência', 'Outubro/2022', 'Dispensa de Licenciamento Ambiental', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_DISPENSA_DE_LICENCIAMENTO_AMBIENTAL.pdf'),
-(6, 'Termo de Referência', 'Outubro/2022', 'Elaboração de Relatório Ambiental Simplificado - RAS, para Atividades Comerciais e de Serviços', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_ELABORACAO_DE_RELATORIO_AMBIENTAL_SIMPLIFICADO-RAS.pdf'),
-(7, 'Termo de Referência', 'Outubro/2022', 'Elaboração de Relatório de Informação Ambiental Anual (RIAA)', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_ELABORACAO_DE_RELATORIO_DE_INFORMACAO_AMBIENTAL_ANUAL(RIAA).pdf'),
-(8, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Beneficiamento de Açaí', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL-TIPOLOGIA-BENEFICIAMENTO-DE-ACAI.pdf'),
-(9, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Comércio de Insumos Agropecuários, Depósito, Comércio de Substâncias e Produtos Perigosos', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_COMERCIO_DE_INSUMOS_AGROPECUARIOS_DEPOSITO_COMERCIO_DE_SUBSTANCIAS_E_PRODUTOS_PERIGOSOS.pdf'),
-(10, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Construção Civil (Conjuntos Habitacionais, Condomínios Multifamiliar e Outros)', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_CONSTRUCAO_CIVIL_(CONJUNTOS_HABITACIONAIS_CONDOMINIOS_MULTIFAMILIAR_E_OUTROS).pdf'),
-(11, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Extração Mineral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_EXTRACAO_MINERAL.pdf'),
-(12, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Geral - Licença De Operação – LO', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_GERAL-LICENCA_DE_OPERACAO-LO.pdf'),
-(13, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Geral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_GERAL.pdf'),
-(14, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Lava-Jato', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_LAVA-JATO.pdf'),
-(15, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Obras de Construção Civil, Loteamento e Parcelamento do Solo', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_OBRAS_DE_CONSTRUCAO_CIVIL_E_LOTEAMENTO_E_PARCELAMENTO_DO_SOLO.pdf'),
-(16, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Oficina Mecânica, Lanternagem e Pintura de Veículos Automotores', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_OFICINA_MECANICA_LANTERNAGEM_E_PINTURA_DE_VEICULOS_AUTOMOTORES.pdf'),
-(17, 'Termo de Referência', 'Outubro/2022', 'Licenciamento Ambiental - Tipologia Posto Revendedor, Posto de Abastecimento, Posto Varejista de Querosene e Gasolina de Aviação, Exceto Posto Flutuante', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_POSTO_REVENDEDOR_POSTO_DE_ABASTECIMENTO_POSTO_VAREJISTA_DE_QUEROSENE_E_GASOLINA_DE_AVIACAO_EXCETO_POSTO_FLUTUANTE.pdf'),
-(18, 'Termo de Referência', 'Outubro/2022', 'Renovação de Licenciamento Ambiental Geral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_RENOVACAO_DE_LICENCIAMENTO_AMBIENTAL_GERAL.pdf'),
-(19, ' Termo de Referência', 'Dezembro/2022', 'Plano de Recuperação de Áreas Degradadas (PRAD) para Atividades Passíveis de Licenciamento Ambiental', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_PRAD_ATIVIDADES_PASSIVEIS_DE_LICENCIAMENTO.pdf');
+INSERT INTO `termos_de_referencia` (`id`, `tipo`, `data`, `status`, `descricao`, `anexo`) VALUES
+(1, 'Termo de Referência', 'Outubro/2022', 0, 'Licença Ambiental Simplificada', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL_SIMPLIFICADA.pdf'),
+(2, 'Termo de Referência', 'Outubro/2022', 1, 'Licença Ambiental Declaratória', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL_DECLARATORIA.pdf'),
+(3, 'Termo de Referência', 'Outubro/2022', 1, 'Autorização de Evento Temporário', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_AUTORIZACAO_DE_EVENTO_TEMPORARIO.pdf'),
+(4, 'Termo de Referência', 'Outubro/2022', 1, 'Carta Consulta Atualizada', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_CARTA_CONSULTA_ATUALIZADA.pdf'),
+(5, 'Termo de Referência', 'Outubro/2022', 1, 'Dispensa de Licenciamento Ambiental', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_DISPENSA_DE_LICENCIAMENTO_AMBIENTAL.pdf'),
+(6, 'Termo de Referência', 'Outubro/2022', 1, 'Elaboração de Relatório Ambiental Simplificado - RAS, para Atividades Comerciais e de Serviços', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_ELABORACAO_DE_RELATORIO_AMBIENTAL_SIMPLIFICADO-RAS.pdf'),
+(7, 'Termo de Referência', 'Outubro/2022', 1, 'Elaboração de Relatório de Informação Ambiental Anual (RIAA)', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_ELABORACAO_DE_RELATORIO_DE_INFORMACAO_AMBIENTAL_ANUAL(RIAA).pdf'),
+(8, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Beneficiamento de Açaí', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_DE_LICENCA_AMBIENTAL-TIPOLOGIA-BENEFICIAMENTO-DE-ACAI.pdf'),
+(9, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Comércio de Insumos Agropecuários, Depósito, Comércio de Substâncias e Produtos Perigosos', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_COMERCIO_DE_INSUMOS_AGROPECUARIOS_DEPOSITO_COMERCIO_DE_SUBSTANCIAS_E_PRODUTOS_PERIGOSOS.pdf'),
+(10, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Construção Civil (Conjuntos Habitacionais, Condomínios Multifamiliar e Outros)', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_CONSTRUCAO_CIVIL_(CONJUNTOS_HABITACIONAIS_CONDOMINIOS_MULTIFAMILIAR_E_OUTROS).pdf'),
+(11, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Extração Mineral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_EXTRACAO_MINERAL.pdf'),
+(12, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Geral - Licença De Operação – LO', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_GERAL-LICENCA_DE_OPERACAO-LO.pdf'),
+(13, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Geral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_GERAL.pdf'),
+(14, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Lava-Jato', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_LAVA-JATO.pdf'),
+(15, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Obras de Construção Civil, Loteamento e Parcelamento do Solo', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_OBRAS_DE_CONSTRUCAO_CIVIL_E_LOTEAMENTO_E_PARCELAMENTO_DO_SOLO.pdf'),
+(16, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Oficina Mecânica, Lanternagem e Pintura de Veículos Automotores', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_OFICINA_MECANICA_LANTERNAGEM_E_PINTURA_DE_VEICULOS_AUTOMOTORES.pdf'),
+(17, 'Termo de Referência', 'Outubro/2022', 1, 'Licenciamento Ambiental - Tipologia Posto Revendedor, Posto de Abastecimento, Posto Varejista de Querosene e Gasolina de Aviação, Exceto Posto Flutuante', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_LICENCIAMENTO_AMBIENTAL-TIPOLOGIA_POSTO_REVENDEDOR_POSTO_DE_ABASTECIMENTO_POSTO_VAREJISTA_DE_QUEROSENE_E_GASOLINA_DE_AVIACAO_EXCETO_POSTO_FLUTUANTE.pdf'),
+(18, 'Termo de Referência', 'Outubro/2022', 1, 'Renovação de Licenciamento Ambiental Geral', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_RENOVACAO_DE_LICENCIAMENTO_AMBIENTAL_GERAL.pdf'),
+(19, ' Termo de Referência', 'Dezembro/2022', 1, 'Plano de Recuperação de Áreas Degradadas (PRAD) para Atividades Passíveis de Licenciamento Ambiental', 'uploads/termos_de_referencia/cla/TERMO_DE_REFERENCIA_PARA_PRAD_ATIVIDADES_PASSIVEIS_DE_LICENCIAMENTO.pdf');
 
 -- --------------------------------------------------------
 
@@ -3061,8 +3105,8 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `nome`, `nome_completo`, `email`, `senha`, `status`, `anexo`, `data`) VALUES
-(1, 'Joab Alencar', '', 'joabtorres1508@gmail.com', '$2y$10$8CqfTWhMXLbCFYTx52/druvRvwL0CRGIExIbwzFsbHrmcoLWhGdnS', 1, 'assets/uploads/usuarios/0cb203708688ce7d6f9aac086e4e48e1.jpg', '2023-01-16'),
-(4, 'joab', 'joab 2', 'joab2@gmail.com', '$2y$10$lzmbA1LCpnsJ6QQD79H/xude.zncsSJjAP5tTZSu66I.07lKWaOnK', 1, 'assets/uploads/usuarios/0cb203708688ce7d6f9aac086e4e48e1.jpg', '2023-01-16');
+(1, 'Joab Alencar', 'Joab Torres Alencar', 'joabtorres1508@gmail.com', '$2y$10$8CqfTWhMXLbCFYTx52/druvRvwL0CRGIExIbwzFsbHrmcoLWhGdnS', 1, 'assets/uploads/usuarios/0cb203708688ce7d6f9aac086e4e48e1.jpg', '2023-01-16'),
+(4, 'joab', 'joab 2', 'joab2@gmail.com', '$2y$10$lzmbA1LCpnsJ6QQD79H/xude.zncsSJjAP5tTZSu66I.07lKWaOnK', 0, 'assets/uploads/usuarios/0cb203708688ce7d6f9aac086e4e48e1.jpg', '2023-01-16');
 
 -- --------------------------------------------------------
 
@@ -3083,7 +3127,12 @@ CREATE TABLE `visitantes` (
 --
 
 INSERT INTO `visitantes` (`id`, `ip`, `mes`, `data`, `hora`) VALUES
-(25, '::1', 'Março de 2023', '2023-03-13', '16:09');
+(25, '::1', 'Março de 2023', '2023-03-13', '16:09'),
+(26, '::1', 'Março de 2023', '2023-03-15', '13:02'),
+(27, '::1', 'Março de 2023', '2023-03-16', '13:06'),
+(28, '::1', 'Março de 2023', '2023-03-17', '18:03'),
+(29, '::1', 'Março de 2023', '2023-03-21', '12:40'),
+(30, '::1', 'Abril de 2023', '2023-04-04', '13:28');
 
 --
 -- Índices para tabelas despejadas
@@ -3146,13 +3195,13 @@ ALTER TABLE `legislacoes`
 -- AUTO_INCREMENT de tabela `licencas_emitidas`
 --
 ALTER TABLE `licencas_emitidas`
-  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=411;
+  MODIFY `cod` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=454;
 
 --
 -- AUTO_INCREMENT de tabela `termos_de_referencia`
 --
 ALTER TABLE `termos_de_referencia`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT de tabela `usuario`
@@ -3164,7 +3213,7 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de tabela `visitantes`
 --
 ALTER TABLE `visitantes`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
