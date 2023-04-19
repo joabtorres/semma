@@ -32,7 +32,8 @@ class claController extends controller
     }
 
 
-    public function get_enquadramento() {
+    public function get_enquadramento()
+    {
         if (isset($_POST) && is_array($_POST) && !empty($_POST)) {
             $crudModel = new crud_db();
             $cod = addslashes($_POST['cod']);
@@ -96,7 +97,7 @@ class claController extends controller
                 $opcaoSelecionada = $_GET['nSelectBuscar'];
                 $campo = $_GET['nCampo'];
                 switch ($opcaoSelecionada) {
-                    case 'protoco':
+                    case 'n_protocolo':
                         $sql .= " AND n_protocolo LIKE '%" . $campo . "%' ";
                         break;
                     case 'empreendimento':
@@ -137,5 +138,4 @@ class claController extends controller
         $dados['licencas'] = $licencas_emitidas;
         $this->loadTemplate($viewName, $dados);
     }
-
 }
