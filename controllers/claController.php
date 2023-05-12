@@ -96,7 +96,7 @@ class claController extends controller
                 $opcaoSelecionada = $_GET['nSelectBuscar'];
                 $campo = $_GET['nCampo'];
                 switch ($opcaoSelecionada) {
-                    case 'protoco':
+                    case 'n_protocolo':
                         $sql .= " AND n_protocolo LIKE '%" . $campo . "%' ";
                         break;
                     case 'empreendimento':

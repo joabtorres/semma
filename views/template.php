@@ -12,7 +12,7 @@
     </title>
     <link href="<?php echo BASE_URL ?>assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo BASE_URL ?>assets/css/lightbox.min.css" rel="stylesheet">
-    <link href="<?php echo BASE_URL ?>assets/css/estilo.min.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL ?>assets/css/estilo.css" rel="stylesheet">
     <link href="<?php echo BASE_URL ?>assets/css/fontawesome.min.css" rel="stylesheet">
     <link href="<?php echo BASE_URL ?>assets/css/brands.min.css" rel="stylesheet">
     <link href="<?php echo BASE_URL ?>assets/css/solid.min.css" rel="stylesheet">
