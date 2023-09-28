@@ -46,14 +46,14 @@
     <div id="banner-topo"></div>
     <!--banner-->
     <!--MENU DE NAVEGAÇÃO-->
-    <nav class="navbar navbar-expand-lg bg-cinza">
+    <nav class="navbar navbar-expand-lg bg-light border-top border-bottom border-1 border-light-subtle">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 
-                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav ">
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo BASE_URL ?>"><i class="fa fa-home"></i> Página Inícial</a>
                     </li>
@@ -89,8 +89,7 @@
                             <i class="fa-solid fa-people-group"></i> Licenciamento
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla">Coordenadoria de Licenciamento
-                                    Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla">Coordenadoria</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/formularios">Formulários</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cla/termos_de_referencia">Termos de
                                     Referência</a></li>
@@ -105,8 +104,7 @@
                             <i class="fa-solid fa-people-group"></i> Fiscalização
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cofisc">Coordenadoria de
-                                    Fiscalização Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cofisc">Coordenadoria</a></li>
                             <li>
                                 <a class="dropdown-item" href="<?php echo BASE_URL ?>cofisc/formularios">Formulários</a>
                             </li>
@@ -120,7 +118,7 @@
                             <i class="fa-solid fa-people-group"></i> Recursos Naturais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn">Coordenadoria de Proteção de Recursos Naturais e Educação Ambiental</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn">Coordenadoria</a></li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn/formularios">Formulários</a> </li>
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>cprn/educacao">Educação
                                     Ambiental</a></li>
@@ -128,6 +126,18 @@
                                     (CAR)</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-tree"></i> Parque Municipal
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/sobre">Sobre</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/galeria">Galeria</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/solicitaao">Solicitação de Visita</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/trabalhos_academicos">Trabalhos Acadêmico</a></li>
+                        </ul>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
@@ -144,7 +154,7 @@
                     <div class="text-strong"> Secretaria Municipal de Meio Ambiente – SEMMA CASTANHAL</div>
                     <div> <i class="fa fa-map-location text-pmc-2"></i> Rua Major Wilson, nº 84 - Nova Olinda -
                         CEP: 68742-190 – Castanhal – Pará</div>
-                    <div><i class="fa fa-phone text-pmc-2"></i> (91) 3711-5959 | <i class="fa fa-mail-bulk text-pmc-2"></i> protocolo.semma@castanhal.pa.gov.br</div>
+                    <div><i class="fa fa-phone text-pmc-2"></i> (91) 98577-6202 | <i class="fa fa-mail-bulk text-pmc-2"></i> protocolo.semma@castanhal.pa.gov.br</div>
                     <div></div>
                 </div>
             </div>

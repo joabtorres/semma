@@ -11,7 +11,7 @@ $config = array();
 define("NAME_PROJECT", "SEMMA - Secretaria Municipal de Meio Ambiente de Castanhal");
 if (ENVIRONMENT == 'development') {
     //Raiz
-    define("BASE_URL", "http://localhost/semma/");
+    define("BASE_URL", "https://localhost/semma/");
     //Nome do banco
     $config['dbname'] = 'semma';
     //host

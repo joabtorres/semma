@@ -32,8 +32,7 @@ class claController extends controller
     }
 
 
-    public function get_enquadramento()
-    {
+    public function get_enquadramento() {
         if (isset($_POST) && is_array($_POST) && !empty($_POST)) {
             $crudModel = new crud_db();
             $cod = addslashes($_POST['cod']);
@@ -138,4 +137,5 @@ class claController extends controller
         $dados['licencas'] = $licencas_emitidas;
         $this->loadTemplate($viewName, $dados);
     }
+
 }
