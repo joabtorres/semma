@@ -58,10 +58,10 @@
 
 #banner-topo{
     width: 100%;
-    min-height: 420px;
+    min-height: 400px;
     background-image: url(../imagens/banner-topo.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: left;
     background-size: cover;
 }
 @media(max-width: 1368px){

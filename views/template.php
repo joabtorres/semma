@@ -26,10 +26,10 @@
 
 <body>
     <!--div comunicado-->
-    <div class="navbar fixed-top bg-pmc-1 pt-0 pb-0">
+    <div class="navbar bg-pmc-1 pt-0 pb-0">
         <div class="container aviso-topo">
-            <div class="navbar-text mt-2 mb-2 "> Atendimento: segunda a sexta, das 8h às 14h</div>
-            <ul class="list-inline text-end mb-2 mt-2">
+            <div class="navbar-text mt-2 mb-2"> Atendimento: segunda a sexta, das 8h às 14h</div>
+            <ul class="list-inline text-end mt-2 mb-2">
                 <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/portal-da-transparencia/fale-conosco/" target="_blank">FALE CONOSCO</a>
                 <li class="list-inline-item"><a href="http://www2.castanhal.pa.gov.br/ouvidoria" target="_blank">OUVIDORIA</a>
                 <li class="list-inline-item"><a href="https://castanhal.cr2transparencia.com.br/" target="_blank">TRANSPARÊNCIA</a>
@@ -39,7 +39,6 @@
                 <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCWHZ0VPQs9neylkl0bvRhiw" target="_blank"><i class="fa-brands fa-youtube-square fa-2xl"></i></a>
             </ul>
         </div>
-    </div>
     </div>
     <!--div comunicado-->
     <!--banner-->
@@ -128,16 +127,17 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-tree"></i> Parque Municipal
+                            <i class="fa-solid fa-tree"></i> Parque Natural
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/sobre">Sobre</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/galeria">Galeria</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/solicitaao">Solicitação de Visita</a></li>
-                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/trabalhos_academicos">Trabalhos Acadêmico</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/visita">Solicitação de Visita</a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL ?>parque/acoes">Ações Realizadas</a></li>
                         </ul>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo BASE_URL ?>saneamento_basico"><i class="fa-solid fa-recycle"></i>Saneamento Básico</a>
+                    </li>
                 </ul>
             </div>
         </div>
