@@ -1,0 +1,96 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.input-group-text {
+    border: 1px;
+}
+
+#telaLogin {
+    height: calc(100vh - 120px);
+}
+
+#telaLogin input[type=email] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+#telaLogin input[type=password] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+#footer_painel {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#content {
+    padding: 20px;
+    min-height: calc(100vh - 50px);
+}
+
+#sidebar {
+    overflow-y: auto;
+}
+
+#sidebar ul li ul {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar ul li ul li {
+    list-style: none;
+}
+
+#sidebar ul li ul li a,
+#sidebar ul li a {
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#sidebar ul li.active>a,
+#sidebar a[aria-expanded="true"] {
+    background-color: #1974fd;
+}
+
+#sidebar ul li a:hover {
+    background-color: #0d6efd;
+    color: white !important;
+}
+
+.breadcrumb {
+    background-color: #e7e7e7;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+#imageUser {
+    width: 140px;
+    height: 140px;
+    background-image: url('../image/user.png');
+    background-size: 140px;
+    background-position: center;
+    margin: auto;
+}
+
+#imagemAcaoParque {
+    width: 250px;
+    height: 167px;
+    background-image: url('../image/parque-acao.jpg');
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
